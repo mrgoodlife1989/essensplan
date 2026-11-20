@@ -6,7 +6,6 @@
  "days": [
   {
    "date": "2026-11-16",
-   "breakfast": "Overnight Oats mit Birne, Zimt & gehackten Mandeln",
    "lunch": {
     "dish": "marok-kichererbsen-linsen-eintopf",
     "type": "prep"
@@ -18,7 +17,6 @@
   },
   {
    "date": "2026-11-17",
-   "breakfast": "Warmes Porridge mit Mango, Kokosflocken & Chiasamen",
    "lunch": {
     "dish": "ofen-weissbohnen-fenchel",
     "type": "prep"
@@ -30,7 +28,6 @@
   },
   {
    "date": "2026-11-18",
-   "breakfast": "Joghurt-Porridge mit Heidelbeeren & Sonnenblumenkernen",
    "lunch": {
     "dish": "marok-kichererbsen-linsen-eintopf",
     "type": "prep"
@@ -42,7 +39,6 @@
   },
   {
    "date": "2026-11-19",
-   "breakfast": "Overnight Oats mit Banane, Kakao & Haselnüssen",
    "lunch": {
     "dish": "ofen-weissbohnen-fenchel",
     "type": "prep"
@@ -54,7 +50,6 @@
   },
   {
    "date": "2026-11-20",
-   "breakfast": "Quark-Porridge mit Orange & Pistazien",
    "lunch": {
     "dish": "puy-linsen-salat",
     "type": "fresh"
@@ -66,7 +61,6 @@
   },
   {
    "date": "2026-11-21",
-   "breakfast": "Overnight Oats mit gemischten Beeren & Leinsamen",
    "lunch": {
     "dish": "bulgur-salat",
     "type": "fresh"
@@ -78,7 +72,6 @@
   },
   {
    "date": "2026-11-22",
-   "breakfast": "Warmes Porridge mit Apfel, Honig & Walnüssen",
    "lunch": {
     "dish": "quinoa-blumenkohl-salat",
     "type": "fresh"

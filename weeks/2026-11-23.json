@@ -6,7 +6,6 @@
  "days": [
   {
    "date": "2026-11-23",
-   "breakfast": "Overnight Oats mit Kiwi, Honig & Kokosflocken",
    "lunch": {
     "dish": "linsen-gulasch",
     "type": "prep"
@@ -18,7 +17,6 @@
   },
   {
    "date": "2026-11-24",
-   "breakfast": "Warmes Porridge mit Birnen, Zimt & Walnüssen",
    "lunch": {
     "dish": "ofen-kichererbsen-butternut",
     "type": "prep"
@@ -30,7 +28,6 @@
   },
   {
    "date": "2026-11-25",
-   "breakfast": "Joghurt-Porridge mit Himbeeren & Kürbiskernen",
    "lunch": {
     "dish": "linsen-gulasch",
     "type": "prep"
@@ -42,7 +39,6 @@
   },
   {
    "date": "2026-11-26",
-   "breakfast": "Overnight Oats mit Apfel, Zimt & Haselnüssen",
    "lunch": {
     "dish": "ofen-kichererbsen-butternut",
     "type": "prep"
@@ -54,7 +50,6 @@
   },
   {
    "date": "2026-11-27",
-   "breakfast": "Quark-Porridge mit Blaubeeren & Mandeln",
    "lunch": {
     "dish": "couscous-salat-tomaten-pinien",
     "type": "fresh"
@@ -66,7 +61,6 @@
   },
   {
    "date": "2026-11-28",
-   "breakfast": "Overnight Oats mit Banane, Erdnussbutter & Chiasamen",
    "lunch": {
     "dish": "quinoa-rosenkohl-bowl",
     "type": "fresh"
@@ -78,7 +72,6 @@
   },
   {
    "date": "2026-11-29",
-   "breakfast": "Warmes Porridge mit Granatapfel, Honig & Pistazien",
    "lunch": {
     "dish": "rote-linsen-suppe",
     "type": "fresh"
@@ -388,32 +381,8 @@
    "cat": "Obst & Gemüse",
    "items": [
     {
-     "name": "Kiwi",
-     "qty": "3 Stück"
-    },
-    {
-     "name": "Birnen",
-     "qty": "2 Stück"
-    },
-    {
-     "name": "Äpfel",
-     "qty": "2 Stück"
-    },
-    {
-     "name": "Bananen",
-     "qty": "2 Stück"
-    },
-    {
-     "name": "Heidelbeeren",
-     "qty": "200 g"
-    },
-    {
-     "name": "Himbeeren",
-     "qty": "200 g"
-    },
-    {
      "name": "Granatapfel",
-     "qty": "2 Stück"
+     "qty": "1 Stück"
     },
     {
      "name": "Zitronen",
@@ -506,11 +475,7 @@
    "items": [
     {
      "name": "Naturjoghurt",
-     "qty": "500 g"
-    },
-    {
-     "name": "Quark",
-     "qty": "400 g"
+     "qty": "150 g"
     },
     {
      "name": "Feta",
@@ -525,10 +490,6 @@
   {
    "cat": "Trockenwaren & Grundnahrungsmittel",
    "items": [
-    {
-     "name": "Haferflocken",
-     "qty": "1 kg"
-    },
     {
      "name": "Quinoa",
      "qty": "200 g"
@@ -587,31 +548,11 @@
     },
     {
      "name": "Walnüsse",
-     "qty": "100 g"
-    },
-    {
-     "name": "Mandeln",
-     "qty": "50 g"
-    },
-    {
-     "name": "Haselnüsse",
-     "qty": "30 g"
+     "qty": "70 g"
     },
     {
      "name": "Kürbiskerne",
-     "qty": "100 g"
-    },
-    {
-     "name": "Kokosflocken",
      "qty": "30 g"
-    },
-    {
-     "name": "Chiasamen",
-     "qty": "20 g"
-    },
-    {
-     "name": "Pistazien",
-     "qty": "40 g"
     },
     {
      "name": "Erdnussbutter",

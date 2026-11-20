@@ -6,7 +6,6 @@
  "days": [
   {
    "date": "2026-11-09",
-   "breakfast": "Overnight Oats mit Apfel, Zimt & Walnüssen",
    "lunch": {
     "dish": "wb-eintopf-gruenkohl",
     "type": "prep"
@@ -18,7 +17,6 @@
   },
   {
    "date": "2026-11-10",
-   "breakfast": "Warmes Porridge mit Heidelbeeren & gehobelten Mandeln",
    "lunch": {
     "dish": "ofen-schwarzbohnen-rotebete",
     "type": "prep"
@@ -30,7 +28,6 @@
   },
   {
    "date": "2026-11-11",
-   "breakfast": "Joghurt-Porridge mit Granatapfelkernen & Kürbiskernen",
    "lunch": {
     "dish": "wb-eintopf-gruenkohl",
     "type": "prep"
@@ -42,7 +39,6 @@
   },
   {
    "date": "2026-11-12",
-   "breakfast": "Overnight Oats mit Banane, Erdnussbutter & Chiasamen",
    "lunch": {
     "dish": "ofen-schwarzbohnen-rotebete",
     "type": "prep"
@@ -54,7 +50,6 @@
   },
   {
    "date": "2026-11-13",
-   "breakfast": "Quark-Porridge mit Feigen & gehackten Pistazien",
    "lunch": {
     "dish": "rotlinsen-quinoa-salat",
     "type": "fresh"
@@ -66,7 +61,6 @@
   },
   {
    "date": "2026-11-14",
-   "breakfast": "Overnight Oats mit Himbeeren, Kokosflocken & Leinsamen",
    "lunch": {
     "dish": "kichererbsen-couscous-salat",
     "type": "fresh"
@@ -78,7 +72,6 @@
   },
   {
    "date": "2026-11-15",
-   "breakfast": "Warmes Porridge mit Pflaume, Honig & gehackten Haselnüssen",
    "lunch": {
     "dish": "weissbohnen-kuerbis-salat",
     "type": "fresh"
