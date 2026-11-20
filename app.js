@@ -73,6 +73,7 @@
     const tIdx = (week.days || []).findIndex((d) => d.date === todayStr());
     dayIdx = tIdx >= 0 ? tIdx : 0;
     renderPlan();
+    if (tIdx > 0 && tab === "plan") requestAnimationFrame(() => scrollToDay(tIdx, false));
     if (unsubShop) unsubShop();
     unsubShop = Sync.subscribe(meta.id, (s) => { shopState = s; renderShop(); });
   }
@@ -88,18 +89,32 @@
       const dt = parseDate(d.date);
       return `<button class="day-chip${i === dayIdx ? " active" : ""}${d.date === today ? " today" : ""}" data-i="${i}">${WD[dt.getDay()]}<b>${dt.getDate()}</b></button>`;
     }).join("");
-    const d = week.days[dayIdx];
-    const dt = parseDate(d.date);
     const MON = ["Januar","Februar","März","April","Mai","Juni","Juli","August","September","Oktober","November","Dezember"];
-    let html = `<header class="day-head"><p class="day-kicker">${WD_LONG[dt.getDay()]}</p><h2 class="day-title">${dt.getDate()}. ${MON[dt.getMonth()]}.</h2></header>`;
-    if (d.breakfast) html += `<p class="meal-label">Frühstück</p><p class="breakfast"><span>${esc(d.breakfast)}</span></p>`;
-    html += mealLabel("Mittagessen", d.lunch) + mealCard(d.lunch);
-    html += mealLabel("Abendessen", d.dinner) + mealCard(d.dinner);
-    if (d.dinner && d.dinner.cookDay && d.dinner.cookDay.length) {
-      html += `<div class="cook-day"><p class="meal-label">Kochtag<span class="sep">·</span>für die kommende Woche</p>` +
-        d.dinner.cookDay.map((id) => smallCard(id)).join("") + `</div>`;
-    }
+    let html = "";
+    week.days.forEach((d, i) => {
+      const dt = parseDate(d.date);
+      html += `<section class="day${d.date === today ? " is-today" : ""}" id="day-${i}">`;
+      html += `<header class="day-head"><p class="day-kicker">${WD_LONG[dt.getDay()]}${d.date === today ? `<span class="sep">·</span>heute` : ""}</p><h2 class="day-title">${dt.getDate()}. ${MON[dt.getMonth()]}</h2></header>`;
+      html += mealRow("Mittag", d.lunch) + mealRow("Abend", d.dinner);
+      if (d.dinner && d.dinner.cookDay && d.dinner.cookDay.length) {
+        html += `<div class="cook-day"><p class="meal-label">Kochtag<span class="sep">·</span>für die kommende Woche</p>` +
+          d.dinner.cookDay.map((id) => smallCard(id)).join("") + `</div>`;
+      }
+      html += `</section>`;
+    });
     $("#dayContent").innerHTML = html;
+  }
+
+  function scrollToDay(i, smooth) {
+    const el = document.getElementById("day-" + i);
+    if (!el) return;
+    const head = document.querySelector(".top"); const top = el.getBoundingClientRect().top + window.scrollY - (head ? head.offsetHeight : 0) - 4;
+    window.scrollTo({ top, behavior: smooth ? "smooth" : "auto" });
+  }
+  function mealRow(label, meal) {
+    if (!meal) return "";
+    const dish = week.dishes[meal.dish] || { name: meal.dish };
+    return cardHTML(meal.dish, meal.type, dish, label);
   }
 
   function typeText(type) {
@@ -121,9 +136,10 @@
     const dish = week.dishes[id] || { name: id };
     return cardHTML(id, "next", dish);
   }
-  function cardHTML(id, type, dish) {
-    const tag = type === "prep" ? `<span class="tag">Meal Prep · vom Sonntag</span>` : type === "next" ? `<span class="tag">Vorkochen · für die Folgewoche</span>` : "";
-    return `<button class="card" data-dish="${esc(id)}" data-type="${esc(type)}">${photo(dish, "")}<div class="body">${tag}<h3>${esc(dish.name)}</h3><span class="more">Rezept <span class="arr">→</span></span></div></button>`;
+  function cardHTML(id, type, dish, label) {
+    const kind = type === "prep" ? "Meal Prep" : type === "next" ? "Vorkochen" : "frisch";
+    const tag = `<span class="tag">${label ? esc(label) + `<span class="sep">·</span>` : ""}${kind}</span>`;
+    return `<button class="card" data-dish="${esc(id)}" data-type="${esc(type)}">${photo(dish, "thumb")}<div class="body">${tag}<h3>${esc(dish.name)}</h3></div><span class="arr" aria-hidden="true">→</span></button>`;
   }
 
   /* ---------- Recipe sheet ---------- */
@@ -214,7 +230,9 @@
     $("#weekSelect").onchange = (e) => loadWeek(weeks.findIndex((w) => w.id === e.target.value));
     $("#dayChips").onclick = (e) => {
       const b = e.target.closest(".day-chip"); if (!b) return;
-      dayIdx = +b.dataset.i; renderPlan();
+      dayIdx = +b.dataset.i;
+      document.querySelectorAll(".day-chip").forEach((c) => c.classList.toggle("active", c === b));
+      scrollToDay(dayIdx, true);
     };
     $("#dayContent").onclick = (e) => {
       const c = e.target.closest(".card"); if (c) openRecipe(c.dataset.dish, c.dataset.type);
