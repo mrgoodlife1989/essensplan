@@ -370,32 +370,8 @@
    "cat": "Obst & Gemüse",
    "items": [
     {
-     "name": "Birnen",
-     "qty": "2"
-    },
-    {
-     "name": "Äpfel",
-     "qty": "2"
-    },
-    {
-     "name": "Bananen",
-     "qty": "2"
-    },
-    {
-     "name": "Orangen",
-     "qty": "2"
-    },
-    {
-     "name": "Mango",
-     "qty": "1"
-    },
-    {
      "name": "gemischte Beeren (frisch oder TK)",
      "qty": "200 g"
-    },
-    {
-     "name": "Heidelbeeren",
-     "qty": "150 g"
     },
     {
      "name": "Zitronen",
@@ -492,11 +468,7 @@
    "items": [
     {
      "name": "Naturjoghurt",
-     "qty": "600 g"
-    },
-    {
-     "name": "Quark",
-     "qty": "250 g"
+     "qty": "300 g"
     },
     {
      "name": "Milch oder Pflanzendrink",
@@ -524,32 +496,8 @@
    "cat": "Trockenwaren & Grundnahrungsmittel",
    "items": [
     {
-     "name": "Haferflocken",
-     "qty": "700 g"
-    },
-    {
-     "name": "Chiasamen",
-     "qty": "30 g"
-    },
-    {
-     "name": "Leinsamen",
-     "qty": "30 g"
-    },
-    {
-     "name": "Sonnenblumenkerne",
-     "qty": "30 g"
-    },
-    {
      "name": "Mandeln (gehackt/Blättchen)",
      "qty": "60 g"
-    },
-    {
-     "name": "Haselnüsse",
-     "qty": "30 g"
-    },
-    {
-     "name": "Pistazien",
-     "qty": "30 g"
     },
     {
      "name": "Walnüsse",
@@ -558,14 +506,6 @@
     {
      "name": "Kokosflocken",
      "qty": "30 g"
-    },
-    {
-     "name": "etwas Kakao (ungesüßt)",
-     "qty": ""
-    },
-    {
-     "name": "etwas Honig",
-     "qty": ""
     },
     {
      "name": "Quinoa",
@@ -695,10 +635,6 @@
     },
     {
      "name": "Oregano",
-     "qty": ""
-    },
-    {
-     "name": "Zimt",
      "qty": ""
     },
     {

@@ -374,27 +374,7 @@
      "qty": "1 Stück"
     },
     {
-     "name": "Heidelbeeren",
-     "qty": "150 g"
-    },
-    {
      "name": "Granatapfel",
-     "qty": "2 Stück"
-    },
-    {
-     "name": "Banane",
-     "qty": "1 Stück"
-    },
-    {
-     "name": "Feigen",
-     "qty": "4 Stück"
-    },
-    {
-     "name": "Himbeeren",
-     "qty": "150 g"
-    },
-    {
-     "name": "Pflaumen",
      "qty": "2 Stück"
     },
     {
@@ -454,10 +434,6 @@
      "qty": "1 Bund"
     },
     {
-     "name": "Minze",
-     "qty": "1 Bund"
-    },
-    {
      "name": "Dill",
      "qty": "1 Bund"
     },
@@ -475,16 +451,8 @@
    "cat": "Milchprodukte",
    "items": [
     {
-     "name": "Milch",
-     "qty": "1,8 l"
-    },
-    {
      "name": "Joghurt",
-     "qty": "850 g"
-    },
-    {
-     "name": "Magerquark",
-     "qty": "200 g"
+     "qty": "350 g"
     },
     {
      "name": "Eier",
@@ -507,10 +475,6 @@
   {
    "cat": "Trockenwaren & Grundnahrungsmittel",
    "items": [
-    {
-     "name": "Haferflocken",
-     "qty": "700 g"
-    },
     {
      "name": "Quinoa",
      "qty": "200 g"
@@ -568,36 +532,12 @@
      "qty": "2 EL (ggf. vorhanden)"
     },
     {
-     "name": "Walnüsse",
-     "qty": "20 g"
-    },
-    {
      "name": "Mandeln (gehobelt)",
      "qty": "20 g"
     },
     {
      "name": "Kürbiskerne",
      "qty": "20 g"
-    },
-    {
-     "name": "Erdnussbutter",
-     "qty": "1 kleines Glas"
-    },
-    {
-     "name": "Chiasamen",
-     "qty": "20 g"
-    },
-    {
-     "name": "Pistazien",
-     "qty": "20 g"
-    },
-    {
-     "name": "Kokosflocken",
-     "qty": "20 g"
-    },
-    {
-     "name": "Leinsamen",
-     "qty": "10 g"
     },
     {
      "name": "Haselnüsse (gehackt)",
@@ -676,10 +616,6 @@
     {
      "name": "Balsamico-Essig",
      "qty": "ggf. vorhanden"
-    },
-    {
-     "name": "Honig",
-     "qty": "kleine Menge"
     },
     {
      "name": "Fladenbrote",
