@@ -1,5 +1,5 @@
 // Service Worker: App-Shell cache-first, Wochendaten & Bilder network-first (mit Cache-Fallback offline).
-const VERSION = "v5-wochenansicht";
+const VERSION = "v6-wochenansicht";
 const SHELL = "shell-" + VERSION;
 const DATA = "data-" + VERSION;
 const SHELL_FILES = [
@@ -8,7 +8,7 @@ const SHELL_FILES = [
 ];
 
 self.addEventListener("install", (e) => {
-  e.waitUntil(caches.open(SHELL).then((c) => c.addAll(SHELL_FILES)).then(() => self.skipWaiting()));
+  e.waitUntil(caches.open(SHELL).then((c) => c.addAll(SHELL_FILES.map((f) => new Request(f, { cache: "reload" })))).then(() => self.skipWaiting()));
 });
 
 self.addEventListener("activate", (e) => {
