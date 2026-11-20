@@ -1,0 +1,718 @@
+{
+ "id": "2026-11-16",
+ "label": "16.–22. November 2026",
+ "intro": "Hauptsächlich vegetarisch, ballaststoff- und proteinreich – mit Putenbrust (Di), Thunfisch (Do) und Hähnchenschenkeln (Sa) für Abwechslung.",
+ "prepNote": "Mo–Do Mittag: Reste vom Kochtag am 15.11. (Marokkanischer Kichererbsen-Linsen-Eintopf & Ofengemüse mit weißen Bohnen und Fenchel). Am So, 22.11., wird für die Folgewoche vorgekocht.",
+ "days": [
+  {
+   "date": "2026-11-16",
+   "breakfast": "Overnight Oats mit Birne, Zimt & gehackten Mandeln",
+   "lunch": {
+    "dish": "marok-kichererbsen-linsen-eintopf",
+    "type": "prep"
+   },
+   "dinner": {
+    "dish": "gefuellte-paprika-quinoa",
+    "type": "fresh"
+   }
+  },
+  {
+   "date": "2026-11-17",
+   "breakfast": "Warmes Porridge mit Mango, Kokosflocken & Chiasamen",
+   "lunch": {
+    "dish": "ofen-weissbohnen-fenchel",
+    "type": "prep"
+   },
+   "dinner": {
+    "dish": "puten-glasnudeln",
+    "type": "fresh"
+   }
+  },
+  {
+   "date": "2026-11-18",
+   "breakfast": "Joghurt-Porridge mit Heidelbeeren & Sonnenblumenkernen",
+   "lunch": {
+    "dish": "marok-kichererbsen-linsen-eintopf",
+    "type": "prep"
+   },
+   "dinner": {
+    "dish": "linsen-bolognese",
+    "type": "fresh"
+   }
+  },
+  {
+   "date": "2026-11-19",
+   "breakfast": "Overnight Oats mit Banane, Kakao & Haselnüssen",
+   "lunch": {
+    "dish": "ofen-weissbohnen-fenchel",
+    "type": "prep"
+   },
+   "dinner": {
+    "dish": "thunfisch-sesam-edamame",
+    "type": "fresh"
+   }
+  },
+  {
+   "date": "2026-11-20",
+   "breakfast": "Quark-Porridge mit Orange & Pistazien",
+   "lunch": {
+    "dish": "puy-linsen-salat",
+    "type": "fresh"
+   },
+   "dinner": {
+    "dish": "kartoffel-kichererbsen-curry",
+    "type": "fresh"
+   }
+  },
+  {
+   "date": "2026-11-21",
+   "breakfast": "Overnight Oats mit gemischten Beeren & Leinsamen",
+   "lunch": {
+    "dish": "bulgur-salat",
+    "type": "fresh"
+   },
+   "dinner": {
+    "dish": "tandoori-haehnchen",
+    "type": "fresh"
+   }
+  },
+  {
+   "date": "2026-11-22",
+   "breakfast": "Warmes Porridge mit Apfel, Honig & Walnüssen",
+   "lunch": {
+    "dish": "quinoa-blumenkohl-salat",
+    "type": "fresh"
+   },
+   "dinner": {
+    "dish": "frittata-pilze-spinat",
+    "type": "fresh",
+    "cookDay": [
+     "linsen-gulasch",
+     "ofen-kichererbsen-butternut"
+    ]
+   }
+  }
+ ],
+ "dishes": {
+  "gefuellte-paprika-quinoa": {
+   "name": "Gefüllte Paprika mit Quinoa, Kichererbsen & Feta",
+   "q": "stuffed peppers quinoa",
+   "servings": "2 Personen",
+   "ingredients": [
+    "4 kleine Paprika (oder 2 große)",
+    "100 g Quinoa",
+    "1 Dose Kichererbsen (240 g)",
+    "1 Zwiebel",
+    "2 Knoblauchzehen",
+    "100 g Feta",
+    "200 g passierte Tomaten",
+    "1 TL Paprikapulver",
+    "2 EL Olivenöl",
+    "Petersilie, Salz, Pfeffer"
+   ],
+   "steps": "Quinoa kochen, Paprika halbieren und entkernen. Zwiebel und Knoblauch anschwitzen, Paprikapulver mitrösten, passierte Tomaten, Kichererbsen und Quinoa einrühren und abschmecken. Paprikahälften füllen, mit Feta bestreuen und bei 200°C ca. 25 Minuten backen. Mit Petersilie servieren.",
+   "img": "img/gefuellte-paprika-quinoa.jpg",
+   "credit": "„Quinoa Stuffed Peppers“ – VegaTeam, CC BY 2.0 (via Openverse/flickr)"
+  },
+  "puten-glasnudeln": {
+   "name": "Puten-Gemüse-Pfanne mit Glasnudeln",
+   "q": "turkey stir fry glass noodles",
+   "servings": "2 Personen",
+   "ingredients": [
+    "300 g Putenbrust (in Streifen)",
+    "150 g Glasnudeln",
+    "1 Paprika",
+    "1 Karotte",
+    "100 g Zuckerschoten",
+    "2 Frühlingszwiebeln",
+    "2 Knoblauchzehen",
+    "1 Stück Ingwer",
+    "3 EL Sojasauce",
+    "1 EL Sesamöl",
+    "2 EL Öl",
+    "Sesam"
+   ],
+   "steps": "Glasnudeln einweichen. Pute in heißem Öl scharf anbraten und herausnehmen. Gemüse mit Knoblauch und Ingwer im selben Öl anbraten, Pute, Glasnudeln, Sojasauce und Sesamöl zugeben und durchschwenken. Mit Sesam und Frühlingszwiebeln servieren.",
+   "img": "img/puten-glasnudeln.jpg",
+   "credit": "„#CSA meal idea: stir fry noodles with spring onion, snow peas, broccoli, spicy peanut sauce. #vegetarian #ticklingmyfancy“ – amberdegrace, CC BY 2.0 (via Openverse/flickr)"
+  },
+  "linsen-bolognese": {
+   "name": "Linsen-Bolognese mit Vollkornnudeln",
+   "q": "lentil bolognese pasta",
+   "servings": "2 Personen",
+   "ingredients": [
+    "150 g braune Linsen (getrocknet)",
+    "200 g Vollkornnudeln",
+    "1 Zwiebel",
+    "1 Karotte",
+    "1 Stange Sellerie",
+    "2 Knoblauchzehen",
+    "1 Dose gehackte Tomaten (400 g)",
+    "1 EL Tomatenmark",
+    "1 TL Oregano",
+    "2 EL Olivenöl",
+    "Parmesan",
+    "Salz, Pfeffer"
+   ],
+   "steps": "Linsen kochen und abgießen. Zwiebel, Karotte, Sellerie und Knoblauch fein würfeln und anschwitzen, Tomatenmark mitrösten. Tomaten, Oregano und Linsen zugeben und 15–20 Minuten köcheln. Mit den Nudeln vermengen und mit Parmesan servieren.",
+   "img": "img/linsen-bolognese.jpg",
+   "credit": "„CameraZOOM-20130521182630613“ – Bernd Brägelmann, CC BY-SA 2.0 (via Openverse/flickr)"
+  },
+  "thunfisch-sesam-edamame": {
+   "name": "Thunfisch-Steak mit Sesamkruste & Edamame-Reis",
+   "q": "seared tuna sesame",
+   "servings": "2 Personen",
+   "ingredients": [
+    "2 Thunfisch-Steaks (à ca. 150 g)",
+    "2 EL Sesam",
+    "150 g Jasminreis",
+    "150 g Edamame (TK)",
+    "1 Limette",
+    "2 EL Sojasauce",
+    "1 EL Sesamöl",
+    "1 EL Öl",
+    "Frühlingszwiebeln"
+   ],
+   "steps": "Reis kochen, Edamame in den letzten Minuten mitgaren. Thunfisch in Sesam wenden und in sehr heißem Öl 1–1,5 Minuten pro Seite anbraten. Reis mit Sojasauce und Sesamöl mischen. Thunfisch in Scheiben mit Limette und Frühlingszwiebeln auf dem Reis servieren.",
+   "img": "img/thunfisch-sesam-edamame.jpg",
+   "credit": "„Seared Tuna Sesame Crust“ – hindyg, CC BY 2.0 (via Openverse/flickr)"
+  },
+  "puy-linsen-salat": {
+   "name": "Puy-Linsen-Salat mit Rucola, Walnüssen & Ziegenkäse",
+   "q": "lentil salad goat cheese",
+   "servings": "2 Personen",
+   "ingredients": [
+    "150 g Puy-Linsen",
+    "50 g Rucola",
+    "50 g Ziegenkäse",
+    "30 g Walnüsse",
+    "1/2 rote Zwiebel",
+    "2 EL Olivenöl",
+    "1 EL Balsamico",
+    "Salz, Pfeffer"
+   ],
+   "steps": "Linsen ca. 20 Minuten bissfest kochen und abkühlen lassen. Mit Zwiebel, Öl, Balsamico, Salz und Pfeffer vermengen. Mit Rucola, Ziegenkäse und Walnüssen anrichten.",
+   "img": "img/puy-linsen-salat.jpg",
+   "credit": "„Roast Pumpkin, Goats Cheese, Spinach and Puy Lentil Salad - Cafe Sapore, Chadstone AUD13.50“ – avlxyz, CC BY-SA 2.0 (via Openverse/flickr)"
+  },
+  "kartoffel-kichererbsen-curry": {
+   "name": "Kartoffel-Gemüse-Curry mit Kichererbsen & Kokosmilch",
+   "q": "potato chickpea curry",
+   "servings": "2 Personen",
+   "ingredients": [
+    "400 g Kartoffeln",
+    "1 Dose Kichererbsen (240 g)",
+    "200 g Blattspinat",
+    "1 Zwiebel",
+    "2 Knoblauchzehen",
+    "1 Stück Ingwer",
+    "2 TL Currypulver",
+    "1 TL Kurkuma",
+    "400 ml Kokosmilch",
+    "200 ml Gemüsebrühe",
+    "1 EL Öl",
+    "120 g Reis",
+    "Salz, Pfeffer"
+   ],
+   "steps": "Kartoffeln würfeln. Zwiebel, Knoblauch und Ingwer anschwitzen, Gewürze mitrösten. Kartoffeln, Kokosmilch und Brühe zugeben und 15–18 Minuten köcheln. Kichererbsen und Spinat 3–5 Minuten mitköcheln und mit Reis servieren.",
+   "img": "img/kartoffel-kichererbsen-curry.jpg",
+   "credit": "„Chickpeas curry“ – pelican, CC BY-SA 2.0 (via Openverse/flickr)"
+  },
+  "bulgur-salat": {
+   "name": "Bulgur-Salat mit Kichererbsen, Paprika & Petersilie",
+   "q": "bulgur salad parsley",
+   "servings": "2 Personen",
+   "ingredients": [
+    "120 g Bulgur",
+    "1 Dose Kichererbsen (240 g)",
+    "1 Paprika",
+    "1/2 Salatgurke",
+    "Petersilie",
+    "2 EL Olivenöl",
+    "1 Zitrone",
+    "Salz, Pfeffer"
+   ],
+   "steps": "Bulgur mit kochendem Wasser ca. 15 Minuten quellen lassen. Kichererbsen mit Paprika, Gurke und Petersilie mischen. Mit Bulgur vermengen und mit Öl, Zitrone, Salz und Pfeffer abschmecken.",
+   "img": "img/bulgur-salat.jpg",
+   "credit": "„Kisir with a twist I“ – Blue moon in her eyes, CC BY 2.0 (via Openverse/flickr)"
+  },
+  "tandoori-haehnchen": {
+   "name": "Tandoori-Hähnchenschenkel mit Ofengemüse & Joghurt-Dip",
+   "q": "tandoori chicken",
+   "servings": "2 Personen",
+   "ingredients": [
+    "4 Hähnchenunterschenkel (ca. 600 g)",
+    "150 g Joghurt (Marinade)",
+    "1 EL Tandoori- oder Currypulver",
+    "1 Knoblauchzehe",
+    "1 Limette",
+    "2 Paprika",
+    "1 Zucchini",
+    "1 rote Zwiebel",
+    "3 EL Olivenöl",
+    "Dip: 150 g Joghurt, Minze, Salz"
+   ],
+   "steps": "Hähnchen mit Joghurt, Tandoori-Gewürz, Knoblauch und Limettensaft mind. 30 Minuten marinieren. Gemüse würfeln und mit Öl, Salz und Pfeffer mischen. Alles aufs Blech und bei 200°C 30–35 Minuten backen. Joghurt mit Minze und Salz zum Dip verrühren.",
+   "img": "img/tandoori-haehnchen.jpg",
+   "credit": "„Tandoori Chicken“ – thebittenword.com, CC BY 2.0 (via Openverse/flickr)"
+  },
+  "quinoa-blumenkohl-salat": {
+   "name": "Quinoa-Salat mit geröstetem Blumenkohl, Granatapfel & Mandeln",
+   "q": "roasted cauliflower quinoa salad",
+   "servings": "2 Personen",
+   "ingredients": [
+    "100 g Quinoa",
+    "1/2 Blumenkohl (ca. 300 g)",
+    "1/2 Granatapfel",
+    "30 g Mandelblättchen",
+    "2 EL Olivenöl",
+    "1 EL Zitronensaft",
+    "Salz, Pfeffer"
+   ],
+   "steps": "Blumenkohlröschen mit Öl, Salz und Pfeffer bei 200°C 20–25 Minuten rösten. Quinoa kochen. Alles mischen, mit Granatapfel und Mandeln bestreuen und mit Zitrone abschmecken.",
+   "img": "img/quinoa-blumenkohl-salat.jpg",
+   "credit": "„roast cauliflower & quinoa salad“ – jules:stonesoup, CC BY 2.0 (via Openverse/flickr)"
+  },
+  "frittata-pilze-spinat": {
+   "name": "Gemüse-Frittata mit Pilzen, Spinat & Feta",
+   "q": "spinach mushroom frittata",
+   "servings": "2 Personen",
+   "ingredients": [
+    "5 Eier",
+    "150 g Champignons",
+    "100 g Blattspinat",
+    "1/2 Zwiebel",
+    "60 g Feta",
+    "2 EL Olivenöl",
+    "Petersilie/Schnittlauch",
+    "Salz, Pfeffer"
+   ],
+   "steps": "Zwiebel und Pilze anbraten, Spinat zusammenfallen lassen. Verquirlte, gewürzte Eier darübergießen und bei niedriger Hitze stocken lassen. Mit Feta bestreuen, kurz überbacken und mit Kräutern servieren.",
+   "img": "img/frittata-pilze-spinat.jpg",
+   "credit": "„Mmm...spinach feta frittata“ – jeffreyw, CC BY 2.0 (via Openverse/flickr)"
+  },
+  "linsen-gulasch": {
+   "name": "Ungarischer Linsen-Gulasch mit Paprika & Karotten",
+   "q": "lentil goulash",
+   "servings": "4 Portionen (Meal Prep)",
+   "ingredients": [
+    "300 g braune Linsen (getrocknet)",
+    "2 Paprika",
+    "3 Karotten",
+    "1 Zwiebel",
+    "2 Knoblauchzehen",
+    "1 Dose gehackte Tomaten (400 g)",
+    "2 EL Paprikapulver (edelsüß)",
+    "1 TL Kümmel (gemahlen)",
+    "1 TL Majoran",
+    "900 ml Gemüsebrühe",
+    "2 EL Öl",
+    "Salz, Pfeffer"
+   ],
+   "steps": "Zwiebel und Knoblauch anschwitzen, Paprikapulver, Kümmel und Majoran mitrösten. Paprika und Karotten kurz mitbraten. Linsen, Tomaten und Brühe zugeben und 25–30 Minuten köcheln. Abschmecken, abkühlen lassen und portioniert kühl lagern.",
+   "img": "img/linsen-gulasch.jpg",
+   "credit": "„Lentil Stew“ – You As A Machine, CC BY-SA 2.0 (via Openverse/flickr)"
+  },
+  "ofen-kichererbsen-butternut": {
+   "name": "Ofengemüse mit Kichererbsen, Butternut-Kürbis & Rosmarin",
+   "q": "roasted butternut squash chickpeas",
+   "servings": "4 Portionen (Meal Prep)",
+   "ingredients": [
+    "2 Dosen Kichererbsen (à 240 g)",
+    "1 Butternut-Kürbis (ca. 800 g)",
+    "2 rote Zwiebeln",
+    "3 EL Olivenöl",
+    "2 Zweige Rosmarin",
+    "30 g Kürbiskerne",
+    "Salz, Pfeffer"
+   ],
+   "steps": "Kürbis und Zwiebeln würfeln, mit Kichererbsen, Öl, Rosmarin, Salz und Pfeffer aufs Blech geben. Bei 200°C Umluft 30–35 Minuten rösten, Kürbiskerne in den letzten 5 Minuten mitrösten. Abkühlen lassen und portioniert lagern.",
+   "img": "img/ofen-kichererbsen-butternut.jpg",
+   "credit": "„Roasted butternut squash risotto 1“ – Fimb, CC BY 2.0 (via Openverse/flickr)"
+  },
+  "marok-kichererbsen-linsen-eintopf": {
+   "name": "Marokkanischer Kichererbsen-Linsen-Eintopf mit Paprika, Tomaten & Aprikosen",
+   "q": "moroccan chickpea lentil stew",
+   "servings": "4 Portionen (Meal Prep)",
+   "ingredients": [
+    "2 Dosen Kichererbsen (à 240 g)",
+    "150 g braune/grüne Linsen (getrocknet)",
+    "2 Paprika",
+    "1 Dose gehackte Tomaten (400 g)",
+    "60 g getrocknete Aprikosen (gehackt)",
+    "1 Zwiebel",
+    "2 Knoblauchzehen",
+    "1 TL Kreuzkümmel",
+    "1 TL Zimt",
+    "1/2 TL Chiliflocken",
+    "800 ml Gemüsebrühe",
+    "2 EL Olivenöl",
+    "Salz, Pfeffer"
+   ],
+   "steps": "Zwiebel und Knoblauch in Olivenöl anschwitzen, Paprika kurz mitbraten. Gewürze mitrösten, dann Linsen, Kichererbsen, Tomaten, Aprikosen und Brühe zugeben. 25–30 Minuten köcheln, bis die Linsen weich sind, bei Bedarf Wasser nachgießen. Abschmecken, abkühlen lassen und portioniert kühl lagern.",
+   "img": "img/marok-kichererbsen-linsen-eintopf.jpg",
+   "credit": "„Spicy Vegetable Stew with Couscous - Moroccan Soup Bar“ – avlxyz, CC BY-SA 2.0 (via Openverse/flickr)"
+  },
+  "ofen-weissbohnen-fenchel": {
+   "name": "Ofengemüse mit weißen Bohnen, Fenchel, Karotten & Pinienkernen",
+   "q": "roasted fennel carrots",
+   "servings": "4 Portionen (Meal Prep)",
+   "ingredients": [
+    "2 Dosen weiße Bohnen (à 240 g)",
+    "2 Fenchel",
+    "4 Karotten",
+    "1 rote Zwiebel",
+    "3 EL Olivenöl",
+    "1 TL Fenchelsamen oder Thymian",
+    "30 g Pinienkerne",
+    "Salz, Pfeffer"
+   ],
+   "steps": "Fenchel und Karotten in Spalten schneiden, mit Zwiebel, Öl, Gewürzen, Salz und Pfeffer aufs Blech geben und bei 200°C Umluft 25–30 Minuten rösten. Bohnen in den letzten 10 Minuten, Pinienkerne in den letzten 5 Minuten mitrösten. Abkühlen lassen und portioniert kühl lagern.",
+   "img": "img/ofen-weissbohnen-fenchel.jpg",
+   "credit": "„Roasted Vegetables“ – pdstahl, CC BY-SA 2.0 (via Openverse/flickr)"
+  }
+ },
+ "shopping": [
+  {
+   "cat": "Obst & Gemüse",
+   "items": [
+    {
+     "name": "Birnen",
+     "qty": "2"
+    },
+    {
+     "name": "Äpfel",
+     "qty": "2"
+    },
+    {
+     "name": "Bananen",
+     "qty": "2"
+    },
+    {
+     "name": "Orangen",
+     "qty": "2"
+    },
+    {
+     "name": "Mango",
+     "qty": "1"
+    },
+    {
+     "name": "gemischte Beeren (frisch oder TK)",
+     "qty": "200 g"
+    },
+    {
+     "name": "Heidelbeeren",
+     "qty": "150 g"
+    },
+    {
+     "name": "Zitronen",
+     "qty": "2"
+    },
+    {
+     "name": "Limetten",
+     "qty": "2"
+    },
+    {
+     "name": "Granatapfel",
+     "qty": "1"
+    },
+    {
+     "name": "Paprika (verschiedene Farben/Größen)",
+     "qty": "10"
+    },
+    {
+     "name": "Karotten",
+     "qty": "5"
+    },
+    {
+     "name": "Zucchini",
+     "qty": "1"
+    },
+    {
+     "name": "Zwiebeln",
+     "qty": "5"
+    },
+    {
+     "name": "rote Zwiebeln",
+     "qty": "4"
+    },
+    {
+     "name": "Frühlingszwiebeln",
+     "qty": "1 Bund"
+    },
+    {
+     "name": "Knoblauch (ca. 10 Zehen)",
+     "qty": "1 Knolle"
+    },
+    {
+     "name": "Ingwer (ca. 2 daumengroß)",
+     "qty": "1 Stück"
+    },
+    {
+     "name": "Kartoffeln",
+     "qty": "400 g"
+    },
+    {
+     "name": "Blattspinat",
+     "qty": "300 g"
+    },
+    {
+     "name": "Champignons",
+     "qty": "150 g"
+    },
+    {
+     "name": "Salatgurke",
+     "qty": "1/2"
+    },
+    {
+     "name": "Rucola",
+     "qty": "50 g"
+    },
+    {
+     "name": "Blumenkohl (ca. 300 g)",
+     "qty": "1/2"
+    },
+    {
+     "name": "Butternut-Kürbis (ca. 800 g)",
+     "qty": "1"
+    },
+    {
+     "name": "Petersilie",
+     "qty": "1 Bund"
+    },
+    {
+     "name": "etwas Minze",
+     "qty": ""
+    },
+    {
+     "name": "etwas Schnittlauch (optional)",
+     "qty": ""
+    },
+    {
+     "name": "Rosmarin (oder getrocknet)",
+     "qty": "2 Zweige"
+    }
+   ]
+  },
+  {
+   "cat": "Milchprodukte",
+   "items": [
+    {
+     "name": "Naturjoghurt",
+     "qty": "600 g"
+    },
+    {
+     "name": "Quark",
+     "qty": "250 g"
+    },
+    {
+     "name": "Milch oder Pflanzendrink",
+     "qty": "500 ml"
+    },
+    {
+     "name": "Feta",
+     "qty": "160 g"
+    },
+    {
+     "name": "Ziegenkäse",
+     "qty": "50 g"
+    },
+    {
+     "name": "Parmesan (gerieben)",
+     "qty": "30 g"
+    },
+    {
+     "name": "Eier",
+     "qty": "5"
+    }
+   ]
+  },
+  {
+   "cat": "Trockenwaren & Grundnahrungsmittel",
+   "items": [
+    {
+     "name": "Haferflocken",
+     "qty": "700 g"
+    },
+    {
+     "name": "Chiasamen",
+     "qty": "30 g"
+    },
+    {
+     "name": "Leinsamen",
+     "qty": "30 g"
+    },
+    {
+     "name": "Sonnenblumenkerne",
+     "qty": "30 g"
+    },
+    {
+     "name": "Mandeln (gehackt/Blättchen)",
+     "qty": "60 g"
+    },
+    {
+     "name": "Haselnüsse",
+     "qty": "30 g"
+    },
+    {
+     "name": "Pistazien",
+     "qty": "30 g"
+    },
+    {
+     "name": "Walnüsse",
+     "qty": "60 g"
+    },
+    {
+     "name": "Kokosflocken",
+     "qty": "30 g"
+    },
+    {
+     "name": "etwas Kakao (ungesüßt)",
+     "qty": ""
+    },
+    {
+     "name": "etwas Honig",
+     "qty": ""
+    },
+    {
+     "name": "Quinoa",
+     "qty": "200 g"
+    },
+    {
+     "name": "braune/grüne Linsen (getrocknet)",
+     "qty": "450 g"
+    },
+    {
+     "name": "Puy-Linsen (getrocknet)",
+     "qty": "150 g"
+    },
+    {
+     "name": "Bulgur",
+     "qty": "120 g"
+    },
+    {
+     "name": "Vollkornnudeln",
+     "qty": "200 g"
+    },
+    {
+     "name": "Glasnudeln",
+     "qty": "150 g"
+    },
+    {
+     "name": "Jasminreis",
+     "qty": "150 g"
+    },
+    {
+     "name": "Reis",
+     "qty": "120 g"
+    },
+    {
+     "name": "Kichererbsen (à 240 g)",
+     "qty": "5 Dosen"
+    },
+    {
+     "name": "gehackte Tomaten (à 400 g)",
+     "qty": "2 Dosen"
+    },
+    {
+     "name": "Packung/Glas passierte Tomaten (200 g)",
+     "qty": "1"
+    },
+    {
+     "name": "Tube/Dose Tomatenmark",
+     "qty": "1"
+    },
+    {
+     "name": "Kokosmilch (400 ml)",
+     "qty": "1 Dose"
+    },
+    {
+     "name": "Edamame (TK)",
+     "qty": "150 g"
+    },
+    {
+     "name": "Kürbiskerne",
+     "qty": "30 g"
+    },
+    {
+     "name": "Gemüsebrühe (Würfel/Pulver, für ca. 900 ml)",
+     "qty": ""
+    }
+   ]
+  },
+  {
+   "cat": "Fleisch & Fisch",
+   "items": [
+    {
+     "name": "Putenbrust",
+     "qty": "300 g"
+    },
+    {
+     "name": "Thunfisch-Steaks (ca. 300 g)",
+     "qty": "2"
+    },
+    {
+     "name": "Hähnchenunterschenkel (ca. 600 g)",
+     "qty": "4"
+    }
+   ]
+  },
+  {
+   "cat": "Sonstiges",
+   "items": [
+    {
+     "name": "Olivenöl (ggf. nachkaufen)",
+     "qty": ""
+    },
+    {
+     "name": "Sojasauce",
+     "qty": ""
+    },
+    {
+     "name": "Sesamöl",
+     "qty": ""
+    },
+    {
+     "name": "Sesam (weiß/schwarz)",
+     "qty": ""
+    },
+    {
+     "name": "Currypulver",
+     "qty": ""
+    },
+    {
+     "name": "Kurkuma",
+     "qty": ""
+    },
+    {
+     "name": "Tandoori-Gewürz (ersatzweise Currypulver + Garam Masala)",
+     "qty": ""
+    },
+    {
+     "name": "Paprikapulver (edelsüß)",
+     "qty": ""
+    },
+    {
+     "name": "Kümmel (gemahlen)",
+     "qty": ""
+    },
+    {
+     "name": "Majoran",
+     "qty": ""
+    },
+    {
+     "name": "Oregano",
+     "qty": ""
+    },
+    {
+     "name": "Zimt",
+     "qty": ""
+    },
+    {
+     "name": "Balsamico-Essig",
+     "qty": ""
+    }
+   ]
+  }
+ ]
+}

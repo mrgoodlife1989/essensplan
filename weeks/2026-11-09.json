@@ -1,0 +1,698 @@
+{
+ "id": "2026-11-09",
+ "label": "9.–15. November 2026",
+ "intro": "Hauptsächlich vegetarisch, ballaststoff- und proteinreich – mit Garnelen (Di), Lachs (Do) und Hähnchenbrust (Sa) für Abwechslung.",
+ "prepNote": "Mo–Do Mittag: Reste vom Kochtag am 8.11. (Toskanischer Weiße-Bohnen-Eintopf & Ofengemüse mit schwarzen Bohnen) – dafür wurde nichts neu eingekauft. Am So, 15.11., wird für die Folgewoche vorgekocht.",
+ "days": [
+  {
+   "date": "2026-11-09",
+   "breakfast": "Overnight Oats mit Apfel, Zimt & Walnüssen",
+   "lunch": {
+    "dish": "wb-eintopf-gruenkohl",
+    "type": "prep"
+   },
+   "dinner": {
+    "dish": "auberginen-parmigiana",
+    "type": "fresh"
+   }
+  },
+  {
+   "date": "2026-11-10",
+   "breakfast": "Warmes Porridge mit Heidelbeeren & gehobelten Mandeln",
+   "lunch": {
+    "dish": "ofen-schwarzbohnen-rotebete",
+    "type": "prep"
+   },
+   "dinner": {
+    "dish": "garnelen-vollkornspaghetti",
+    "type": "fresh"
+   }
+  },
+  {
+   "date": "2026-11-11",
+   "breakfast": "Joghurt-Porridge mit Granatapfelkernen & Kürbiskernen",
+   "lunch": {
+    "dish": "wb-eintopf-gruenkohl",
+    "type": "prep"
+   },
+   "dinner": {
+    "dish": "falafel-couscous",
+    "type": "fresh"
+   }
+  },
+  {
+   "date": "2026-11-12",
+   "breakfast": "Overnight Oats mit Banane, Erdnussbutter & Chiasamen",
+   "lunch": {
+    "dish": "ofen-schwarzbohnen-rotebete",
+    "type": "prep"
+   },
+   "dinner": {
+    "dish": "ofenlachs-spargel",
+    "type": "fresh"
+   }
+  },
+  {
+   "date": "2026-11-13",
+   "breakfast": "Quark-Porridge mit Feigen & gehackten Pistazien",
+   "lunch": {
+    "dish": "rotlinsen-quinoa-salat",
+    "type": "fresh"
+   },
+   "dinner": {
+    "dish": "chili-kidney-vollkornreis",
+    "type": "fresh"
+   }
+  },
+  {
+   "date": "2026-11-14",
+   "breakfast": "Overnight Oats mit Himbeeren, Kokosflocken & Leinsamen",
+   "lunch": {
+    "dish": "kichererbsen-couscous-salat",
+    "type": "fresh"
+   },
+   "dinner": {
+    "dish": "haehnchen-ofengemuese-tzatziki",
+    "type": "fresh"
+   }
+  },
+  {
+   "date": "2026-11-15",
+   "breakfast": "Warmes Porridge mit Pflaume, Honig & gehackten Haselnüssen",
+   "lunch": {
+    "dish": "weissbohnen-kuerbis-salat",
+    "type": "fresh"
+   },
+   "dinner": {
+    "dish": "shakshuka",
+    "type": "fresh",
+    "cookDay": [
+     "marok-kichererbsen-linsen-eintopf",
+     "ofen-weissbohnen-fenchel"
+    ]
+   }
+  }
+ ],
+ "dishes": {
+  "wb-eintopf-gruenkohl": {
+   "name": "Toskanischer Weiße-Bohnen-Eintopf mit Lauch, Tomaten & Grünkohl",
+   "q": "white bean kale stew",
+   "servings": "4 Portionen · am So, 8.11., gekocht",
+   "ingredients": [
+    "2 Dosen weiße Bohnen (à 240 g Abtropfgewicht)",
+    "2 Stangen Lauch",
+    "1 Dose gehackte Tomaten (400 g)",
+    "150 g Grünkohl (in Streifen)",
+    "1 Zwiebel",
+    "2 Knoblauchzehen",
+    "700 ml Gemüsebrühe",
+    "1 TL Rosmarin",
+    "2 EL Olivenöl",
+    "Salz, Pfeffer"
+   ],
+   "steps": "Zwiebel und Knoblauch in Olivenöl anschwitzen, Lauch in Ringen kurz mitbraten. Weiße Bohnen, gehackte Tomaten, Rosmarin und Gemüsebrühe zugeben und ca. 20 Minuten köcheln. Grünkohl zugeben und 5–10 Minuten weiterköcheln, bis er weich ist. Zum Servieren portionsweise erhitzen und mit Salz und Pfeffer abschmecken.",
+   "img": "img/wb-eintopf-gruenkohl.jpg",
+   "credit": "„kale and white bean soup“ – Stacy Spensley, CC BY 2.0 (via Openverse/flickr)"
+  },
+  "ofen-schwarzbohnen-rotebete": {
+   "name": "Ofengemüse mit schwarzen Bohnen, Roter Bete, Süßkartoffel & Walnüssen",
+   "q": "roasted beetroot sweet potato black beans",
+   "servings": "4 Portionen · am So, 8.11., gekocht",
+   "ingredients": [
+    "2 Dosen schwarze Bohnen (à 240 g)",
+    "400 g Rote Bete (gewürfelt)",
+    "400 g Süßkartoffel (gewürfelt)",
+    "1 rote Zwiebel",
+    "3 EL Olivenöl",
+    "1 TL Kreuzkümmel",
+    "40 g Walnüsse",
+    "Salz, Pfeffer"
+   ],
+   "steps": "Rote Bete, Süßkartoffel und Zwiebel mit den abgetropften Bohnen, Olivenöl, Kreuzkümmel, Salz und Pfeffer vermengen. Bei 200°C Umluft ca. 30–35 Minuten rösten, Walnüsse in den letzten 5 Minuten mitrösten. Zum Servieren portionsweise in Pfanne oder Mikrowelle erwärmen.",
+   "img": "img/ofen-schwarzbohnen-rotebete.jpg",
+   "credit": "„Neon root veggies (roasted beets, turnips, rutabaga, carrots & onions)“ – SaucyGlo, CC BY 2.0 (via Openverse/flickr)"
+  },
+  "auberginen-parmigiana": {
+   "name": "Auberginen-Parmigiana mit Linsen-Tomatensauce",
+   "q": "eggplant parmigiana",
+   "servings": "2 Personen",
+   "ingredients": [
+    "2 Auberginen",
+    "150 g braune Linsen (getrocknet)",
+    "1 Zwiebel",
+    "2 Knoblauchzehen",
+    "500 g passierte Tomaten",
+    "1 TL Oregano",
+    "100 g Mozzarella (gerieben)",
+    "30 g Parmesan (gerieben)",
+    "3 EL Olivenöl",
+    "Salz, Pfeffer"
+   ],
+   "steps": "Auberginen in 1 cm dicke Scheiben schneiden, mit Olivenöl bestreichen und bei 200°C ca. 20 Minuten vorbacken. Linsen weich kochen und abgießen. Zwiebel und Knoblauch anschwitzen, passierte Tomaten und Oregano zugeben, kurz einköcheln und die Linsen einrühren. In einer Auflaufform Auberginen und Sauce abwechselnd schichten, mit Mozzarella und Parmesan bestreuen und bei 200°C 20–25 Minuten goldbraun backen.",
+   "img": "img/auberginen-parmigiana.jpg",
+   "credit": "„Eggplant Parmigiana“ – rick, CC BY 2.0 (via Openverse/flickr)"
+  },
+  "garnelen-vollkornspaghetti": {
+   "name": "Garnelen-Pfanne mit Knoblauch, Zucchini & Vollkornspaghetti",
+   "q": "shrimp zucchini spaghetti",
+   "servings": "2 Personen",
+   "ingredients": [
+    "250 g Garnelen (geschält)",
+    "200 g Vollkornspaghetti",
+    "2 Zucchini",
+    "3 Knoblauchzehen",
+    "150 g Kirschtomaten",
+    "1 Chilischote (optional)",
+    "3 EL Olivenöl",
+    "Petersilie",
+    "1 Zitrone",
+    "Salz, Pfeffer"
+   ],
+   "steps": "Spaghetti in Salzwasser kochen. Zucchini in Scheiben in Olivenöl 4–5 Minuten anbraten und herausnehmen. Knoblauch und Chili anschwitzen, Garnelen 2–3 Minuten braten, bis sie rosa sind, halbierte Kirschtomaten und Zucchini zugeben. Mit den Spaghetti vermengen, mit Zitronensaft, Salz und Pfeffer abschmecken und mit Petersilie servieren.",
+   "img": "img/garnelen-vollkornspaghetti.jpg",
+   "credit": "„Lemon Shrimp Pasta“ – Keren_, CC BY-SA 2.0 (via Openverse/flickr)"
+  },
+  "falafel-couscous": {
+   "name": "Falafel mit Couscous-Salat & Joghurt-Tahin-Sauce",
+   "q": "falafel plate",
+   "servings": "2 Personen",
+   "ingredients": [
+    "1 Dose Kichererbsen (240 g)",
+    "1 Zwiebel",
+    "2 Knoblauchzehen",
+    "Petersilie",
+    "1 TL Kreuzkümmel",
+    "1 TL Koriander (gemahlen)",
+    "2 EL Mehl",
+    "120 g Couscous",
+    "1 Paprika",
+    "1/2 Gurke",
+    "150 g Kirschtomaten",
+    "150 g Joghurt",
+    "1 EL Tahin",
+    "1 Zitrone",
+    "Öl zum Braten, Salz, Pfeffer"
+   ],
+   "steps": "Kichererbsen mit Zwiebel, Knoblauch, Petersilie, Gewürzen, Salz und Pfeffer grob pürieren, Mehl einarbeiten und kleine Bällchen formen. In etwas Öl rundum knusprig braten, ca. 3–4 Minuten pro Seite. Couscous mit kochendem Wasser 5 Minuten quellen lassen und mit Paprika, Gurke und Tomaten mischen. Joghurt mit Tahin, Zitronensaft, Salz und Pfeffer verrühren und alles zusammen servieren.",
+   "img": "img/falafel-couscous.jpg",
+   "credit": "„Falafel plate“ – illustir, CC BY 2.0 (via Openverse/flickr)"
+  },
+  "ofenlachs-spargel": {
+   "name": "Ofenlachs mit grünem Spargel & Quinoa",
+   "q": "baked salmon asparagus",
+   "servings": "2 Personen",
+   "ingredients": [
+    "2 Lachsfilets (à ca. 150 g)",
+    "300 g grüner Spargel",
+    "120 g Quinoa",
+    "1 Zitrone",
+    "2 EL Olivenöl",
+    "1 TL Dill",
+    "Salz, Pfeffer"
+   ],
+   "steps": "Quinoa nach Packungsanweisung kochen. Spargel unten schälen, Enden abschneiden und mit Öl, Salz und Pfeffer aufs Blech legen. Lachs mit Salz, Pfeffer und Zitronensaft würzen und mit dem Spargel bei 200°C 12–15 Minuten garen. Mit Dill bestreuen und mit Quinoa und Zitrone servieren.",
+   "img": "img/ofenlachs-spargel.jpg",
+   "credit": "„Sunday lunch“ – Kai Hendry, CC BY 2.0 (via Openverse/flickr)"
+  },
+  "rotlinsen-quinoa-salat": {
+   "name": "Roter-Linsen-Quinoa-Salat mit Granatapfel, Feta & Minze",
+   "q": "lentil quinoa salad pomegranate feta",
+   "servings": "2 Personen",
+   "ingredients": [
+    "80 g rote Linsen",
+    "80 g Quinoa",
+    "1/2 Granatapfel (ca. 80 g Kerne)",
+    "60 g Feta",
+    "einige Minzblätter",
+    "2 EL Olivenöl",
+    "1 EL Zitronensaft",
+    "Salz, Pfeffer"
+   ],
+   "steps": "Rote Linsen (10–12 Min.) und Quinoa (ca. 15 Min.) getrennt weich kochen und abkühlen lassen. Vermengen und mit Olivenöl, Zitronensaft, Salz und Pfeffer abschmecken. Mit Granatapfelkernen, zerbröckeltem Feta und gehackter Minze servieren.",
+   "img": "img/rotlinsen-quinoa-salat.jpg",
+   "credit": "„savory quinoa salad“ – gamene, CC BY 2.0 (via Openverse/flickr)"
+  },
+  "chili-kidney-vollkornreis": {
+   "name": "Gemüse-Chili sin Carne mit Kidneybohnen, Mais & Vollkornreis",
+   "q": "vegetarian chili beans rice",
+   "servings": "2 Personen",
+   "ingredients": [
+    "1 Dose Kidneybohnen (240 g)",
+    "150 g Mais",
+    "1 Paprika",
+    "1 Zwiebel",
+    "2 Knoblauchzehen",
+    "1 Dose gehackte Tomaten (400 g)",
+    "1 TL Paprikapulver",
+    "1/2 TL Chiliflocken",
+    "120 g Vollkornreis",
+    "1 EL Öl",
+    "Salz, Pfeffer"
+   ],
+   "steps": "Vollkornreis kochen. Zwiebel, Knoblauch und Paprika in Öl anschwitzen, Paprikapulver und Chiliflocken kurz mitrösten. Tomaten, Kidneybohnen und Mais zugeben und 15–20 Minuten köcheln, abschmecken und mit dem Reis servieren.",
+   "img": "img/chili-kidney-vollkornreis.jpg",
+   "credit": "„Chili“ – Saucy Salad, CC BY 2.0 (via Openverse/flickr)"
+  },
+  "kichererbsen-couscous-salat": {
+   "name": "Kichererbsen-Couscous-Salat mit Paprika, Petersilie & Zitronen-Dressing",
+   "q": "chickpea couscous salad",
+   "servings": "2 Personen",
+   "ingredients": [
+    "100 g Couscous",
+    "1 Dose Kichererbsen (240 g)",
+    "1 Paprika",
+    "1/2 rote Zwiebel",
+    "Petersilie",
+    "2 EL Olivenöl",
+    "1 Zitrone",
+    "1 TL Kreuzkümmel",
+    "Salz, Pfeffer"
+   ],
+   "steps": "Couscous mit kochendem Wasser übergießen, 5 Minuten quellen lassen und auflockern. Kichererbsen mit Paprika, Zwiebel und Petersilie mischen. Mit dem Couscous vermengen und mit Olivenöl, Zitronensaft, Kreuzkümmel, Salz und Pfeffer abschmecken.",
+   "img": "img/kichererbsen-couscous-salat.jpg",
+   "credit": "„couscous salad“ – jules:stonesoup, CC BY 2.0 (via Openverse/flickr)"
+  },
+  "haehnchen-ofengemuese-tzatziki": {
+   "name": "Hähnchenbrust mit Ofengemüse & Tzatziki",
+   "q": "grilled chicken breast roasted vegetables tzatziki",
+   "servings": "2 Personen",
+   "ingredients": [
+    "2 Hähnchenbrustfilets (à ca. 150 g)",
+    "2 Paprika",
+    "2 Zucchini",
+    "1 rote Zwiebel",
+    "200 g Joghurt",
+    "1/2 Gurke",
+    "1 Knoblauchzehe",
+    "Dill",
+    "3 EL Olivenöl",
+    "Salz, Pfeffer"
+   ],
+   "steps": "Paprika, Zucchini und Zwiebel grob schneiden, mit Öl, Salz und Pfeffer bei 200°C ca. 25 Minuten rösten. Hähnchen würzen und in der Pfanne 5–6 Minuten pro Seite durchbraten. Gurke reiben, ausdrücken und mit Joghurt, Knoblauch, Dill, Salz und Pfeffer zu Tzatziki verrühren. Hähnchen in Scheiben mit Ofengemüse und Tzatziki servieren.",
+   "img": "img/haehnchen-ofengemuese-tzatziki.jpg",
+   "credit": "„lamb souvlakia“ – Geoff Peters 604, CC BY 2.0 (via Openverse/flickr)"
+  },
+  "weissbohnen-kuerbis-salat": {
+   "name": "Weißer-Bohnen-Salat mit geröstetem Kürbis, Rucola & Parmesan",
+   "q": "roasted pumpkin arugula salad",
+   "servings": "2 Personen",
+   "ingredients": [
+    "1 Dose weiße Bohnen (240 g)",
+    "300 g Hokkaido-Kürbis (gewürfelt)",
+    "40 g Rucola",
+    "30 g Parmesan (gehobelt)",
+    "2 EL Olivenöl",
+    "1 EL Balsamico",
+    "Salz, Pfeffer"
+   ],
+   "steps": "Kürbiswürfel mit Öl, Salz und Pfeffer bei 200°C ca. 20 Minuten rösten. Bohnen abtropfen lassen und mit Rucola und dem Kürbis mischen. Mit Olivenöl und Balsamico beträufeln und mit Parmesan servieren.",
+   "img": "img/weissbohnen-kuerbis-salat.jpg",
+   "credit": "„sprout & pumpkin salad“ – jules:stonesoup, CC BY 2.0 (via Openverse/flickr)"
+  },
+  "shakshuka": {
+   "name": "Shakshuka mit Feta & Fladenbrot",
+   "q": "shakshuka",
+   "servings": "2 Personen",
+   "ingredients": [
+    "4 Eier",
+    "1 Dose gehackte Tomaten (400 g)",
+    "1 Paprika",
+    "1 Zwiebel",
+    "2 Knoblauchzehen",
+    "1 TL Paprikapulver",
+    "1/2 TL Kreuzkümmel",
+    "60 g Feta",
+    "2 Fladenbrote",
+    "2 EL Olivenöl",
+    "Salz, Pfeffer"
+   ],
+   "steps": "Zwiebel, Knoblauch und Paprika in Olivenöl anschwitzen, Gewürze kurz mitrösten. Tomaten zugeben und 10–12 Minuten einköcheln. Mulden in die Sauce drücken, Eier hineingeben, abdecken und 6–8 Minuten stocken lassen, bis das Eiweiß fest ist. Mit Feta bestreuen und mit warmem Fladenbrot servieren.",
+   "img": "img/shakshuka.jpg",
+   "credit": "„Shakshuka“ – adactio, CC BY 2.0 (via Openverse/flickr)"
+  },
+  "marok-kichererbsen-linsen-eintopf": {
+   "name": "Marokkanischer Kichererbsen-Linsen-Eintopf mit Paprika, Tomaten & Aprikosen",
+   "q": "moroccan chickpea lentil stew",
+   "servings": "4 Portionen (Meal Prep)",
+   "ingredients": [
+    "2 Dosen Kichererbsen (à 240 g)",
+    "150 g braune/grüne Linsen (getrocknet)",
+    "2 Paprika",
+    "1 Dose gehackte Tomaten (400 g)",
+    "60 g getrocknete Aprikosen (gehackt)",
+    "1 Zwiebel",
+    "2 Knoblauchzehen",
+    "1 TL Kreuzkümmel",
+    "1 TL Zimt",
+    "1/2 TL Chiliflocken",
+    "800 ml Gemüsebrühe",
+    "2 EL Olivenöl",
+    "Salz, Pfeffer"
+   ],
+   "steps": "Zwiebel und Knoblauch in Olivenöl anschwitzen, Paprika kurz mitbraten. Gewürze mitrösten, dann Linsen, Kichererbsen, Tomaten, Aprikosen und Brühe zugeben. 25–30 Minuten köcheln, bis die Linsen weich sind, bei Bedarf Wasser nachgießen. Abschmecken, abkühlen lassen und portioniert kühl lagern.",
+   "img": "img/marok-kichererbsen-linsen-eintopf.jpg",
+   "credit": "„Spicy Vegetable Stew with Couscous - Moroccan Soup Bar“ – avlxyz, CC BY-SA 2.0 (via Openverse/flickr)"
+  },
+  "ofen-weissbohnen-fenchel": {
+   "name": "Ofengemüse mit weißen Bohnen, Fenchel, Karotten & Pinienkernen",
+   "q": "roasted fennel carrots",
+   "servings": "4 Portionen (Meal Prep)",
+   "ingredients": [
+    "2 Dosen weiße Bohnen (à 240 g)",
+    "2 Fenchel",
+    "4 Karotten",
+    "1 rote Zwiebel",
+    "3 EL Olivenöl",
+    "1 TL Fenchelsamen oder Thymian",
+    "30 g Pinienkerne",
+    "Salz, Pfeffer"
+   ],
+   "steps": "Fenchel und Karotten in Spalten schneiden, mit Zwiebel, Öl, Gewürzen, Salz und Pfeffer aufs Blech geben und bei 200°C Umluft 25–30 Minuten rösten. Bohnen in den letzten 10 Minuten, Pinienkerne in den letzten 5 Minuten mitrösten. Abkühlen lassen und portioniert kühl lagern.",
+   "img": "img/ofen-weissbohnen-fenchel.jpg",
+   "credit": "„Roasted Vegetables“ – pdstahl, CC BY-SA 2.0 (via Openverse/flickr)"
+  }
+ },
+ "shopping": [
+  {
+   "cat": "Obst & Gemüse",
+   "items": [
+    {
+     "name": "Apfel",
+     "qty": "1 Stück"
+    },
+    {
+     "name": "Heidelbeeren",
+     "qty": "150 g"
+    },
+    {
+     "name": "Granatapfel",
+     "qty": "2 Stück"
+    },
+    {
+     "name": "Banane",
+     "qty": "1 Stück"
+    },
+    {
+     "name": "Feigen",
+     "qty": "4 Stück"
+    },
+    {
+     "name": "Himbeeren",
+     "qty": "150 g"
+    },
+    {
+     "name": "Pflaumen",
+     "qty": "2 Stück"
+    },
+    {
+     "name": "Paprika (gemischt, für mehrere Gerichte)",
+     "qty": "8 Stück"
+    },
+    {
+     "name": "Rote Zwiebeln",
+     "qty": "3 Stück"
+    },
+    {
+     "name": "Zwiebeln (gelb)",
+     "qty": "5 Stück"
+    },
+    {
+     "name": "Knoblauch",
+     "qty": "14 Zehen (2 Knollen reichen)"
+    },
+    {
+     "name": "Auberginen",
+     "qty": "2 Stück"
+    },
+    {
+     "name": "Zucchini",
+     "qty": "4 Stück"
+    },
+    {
+     "name": "Gurke",
+     "qty": "1 Stück"
+    },
+    {
+     "name": "Kirschtomaten",
+     "qty": "300 g"
+    },
+    {
+     "name": "Grüner Spargel",
+     "qty": "300 g"
+    },
+    {
+     "name": "Kürbis (Hokkaido)",
+     "qty": "300 g"
+    },
+    {
+     "name": "Rucola",
+     "qty": "40 g"
+    },
+    {
+     "name": "Fenchel",
+     "qty": "2 Stück"
+    },
+    {
+     "name": "Karotten",
+     "qty": "4 Stück"
+    },
+    {
+     "name": "Petersilie",
+     "qty": "1 Bund"
+    },
+    {
+     "name": "Minze",
+     "qty": "1 Bund"
+    },
+    {
+     "name": "Dill",
+     "qty": "1 Bund"
+    },
+    {
+     "name": "Zitronen",
+     "qty": "3 Stück"
+    },
+    {
+     "name": "Chilischote (optional)",
+     "qty": "1 Stück"
+    }
+   ]
+  },
+  {
+   "cat": "Milchprodukte",
+   "items": [
+    {
+     "name": "Milch",
+     "qty": "1,8 l"
+    },
+    {
+     "name": "Joghurt",
+     "qty": "850 g"
+    },
+    {
+     "name": "Magerquark",
+     "qty": "200 g"
+    },
+    {
+     "name": "Eier",
+     "qty": "4 Stück"
+    },
+    {
+     "name": "Feta",
+     "qty": "120 g"
+    },
+    {
+     "name": "Mozzarella (gerieben)",
+     "qty": "100 g"
+    },
+    {
+     "name": "Parmesan",
+     "qty": "60 g"
+    }
+   ]
+  },
+  {
+   "cat": "Trockenwaren & Grundnahrungsmittel",
+   "items": [
+    {
+     "name": "Haferflocken",
+     "qty": "700 g"
+    },
+    {
+     "name": "Quinoa",
+     "qty": "200 g"
+    },
+    {
+     "name": "Rote Linsen",
+     "qty": "80 g"
+    },
+    {
+     "name": "Braune/grüne Linsen (getrocknet)",
+     "qty": "300 g"
+    },
+    {
+     "name": "Kichererbsen (Dose, à 240 g)",
+     "qty": "4 Dosen"
+    },
+    {
+     "name": "Weiße Bohnen (Dose, à 240 g)",
+     "qty": "3 Dosen"
+    },
+    {
+     "name": "Kidneybohnen (Dose, à 240 g)",
+     "qty": "1 Dose"
+    },
+    {
+     "name": "Mais (Dose oder TK)",
+     "qty": "150 g"
+    },
+    {
+     "name": "Gehackte Tomaten (Dose, 400 g)",
+     "qty": "3 Dosen"
+    },
+    {
+     "name": "Passierte Tomaten",
+     "qty": "500 g"
+    },
+    {
+     "name": "Gemüsebrühe",
+     "qty": "800 ml (Würfel/Pulver)"
+    },
+    {
+     "name": "Vollkornspaghetti",
+     "qty": "200 g"
+    },
+    {
+     "name": "Vollkornreis",
+     "qty": "120 g"
+    },
+    {
+     "name": "Couscous",
+     "qty": "220 g"
+    },
+    {
+     "name": "Mehl",
+     "qty": "2 EL (ggf. vorhanden)"
+    },
+    {
+     "name": "Walnüsse",
+     "qty": "20 g"
+    },
+    {
+     "name": "Mandeln (gehobelt)",
+     "qty": "20 g"
+    },
+    {
+     "name": "Kürbiskerne",
+     "qty": "20 g"
+    },
+    {
+     "name": "Erdnussbutter",
+     "qty": "1 kleines Glas"
+    },
+    {
+     "name": "Chiasamen",
+     "qty": "20 g"
+    },
+    {
+     "name": "Pistazien",
+     "qty": "20 g"
+    },
+    {
+     "name": "Kokosflocken",
+     "qty": "20 g"
+    },
+    {
+     "name": "Leinsamen",
+     "qty": "10 g"
+    },
+    {
+     "name": "Haselnüsse (gehackt)",
+     "qty": "20 g"
+    },
+    {
+     "name": "Getrocknete Aprikosen",
+     "qty": "60 g"
+    },
+    {
+     "name": "Pinienkerne",
+     "qty": "30 g"
+    },
+    {
+     "name": "Tahin",
+     "qty": "1 kleines Glas"
+    },
+    {
+     "name": "Paprikapulver",
+     "qty": "2 TL (ggf. vorhanden)"
+    },
+    {
+     "name": "Kreuzkümmel",
+     "qty": "3 TL (ggf. vorhanden)"
+    },
+    {
+     "name": "Zimt",
+     "qty": "nach Bedarf (ggf. vorhanden)"
+    },
+    {
+     "name": "Chiliflocken",
+     "qty": "1 TL (ggf. vorhanden)"
+    },
+    {
+     "name": "Oregano",
+     "qty": "1 TL (ggf. vorhanden)"
+    },
+    {
+     "name": "Koriander (gemahlen)",
+     "qty": "1 TL (ggf. vorhanden)"
+    },
+    {
+     "name": "Fenchelsamen oder Thymian",
+     "qty": "1 TL (ggf. vorhanden)"
+    },
+    {
+     "name": "Rosmarin",
+     "qty": "ggf. vorhanden (für Meal-Prep-Rest, schon eingekauft)"
+    }
+   ]
+  },
+  {
+   "cat": "Fleisch & Fisch",
+   "items": [
+    {
+     "name": "Garnelen (geschält)",
+     "qty": "250 g"
+    },
+    {
+     "name": "Lachsfilet",
+     "qty": "300 g (2 Filets à ca. 150 g)"
+    },
+    {
+     "name": "Hähnchenbrustfilet",
+     "qty": "300 g (2 Filets à ca. 150 g)"
+    }
+   ]
+  },
+  {
+   "cat": "Sonstiges",
+   "items": [
+    {
+     "name": "Olivenöl",
+     "qty": "ausreichend einplanen (ggf. vorhanden)"
+    },
+    {
+     "name": "Balsamico-Essig",
+     "qty": "ggf. vorhanden"
+    },
+    {
+     "name": "Honig",
+     "qty": "kleine Menge"
+    },
+    {
+     "name": "Fladenbrote",
+     "qty": "2 Stück"
+    }
+   ]
+  }
+ ]
+}

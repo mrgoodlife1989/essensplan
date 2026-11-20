@@ -1,0 +1,689 @@
+{
+ "id": "2026-11-23",
+ "label": "23.–29. November 2026",
+ "intro": "Hauptsächlich vegetarisch, ballaststoff- und proteinreich – mit Lachs (Di) und Hähnchenbrust (Do) für Abwechslung.",
+ "prepNote": "Mo–Do Mittag: Reste vom Kochtag am 22.11. (Ungarischer Linsen-Gulasch & Ofengemüse mit Kichererbsen und Butternut-Kürbis). Am So, 29.11., wird für die Folgewoche vorgekocht.",
+ "days": [
+  {
+   "date": "2026-11-23",
+   "breakfast": "Overnight Oats mit Kiwi, Honig & Kokosflocken",
+   "lunch": {
+    "dish": "linsen-gulasch",
+    "type": "prep"
+   },
+   "dinner": {
+    "dish": "suesskartoffel-schwarzbohnen",
+    "type": "fresh"
+   }
+  },
+  {
+   "date": "2026-11-24",
+   "breakfast": "Warmes Porridge mit Birnen, Zimt & Walnüssen",
+   "lunch": {
+    "dish": "ofen-kichererbsen-butternut",
+    "type": "prep"
+   },
+   "dinner": {
+    "dish": "lachs-quinoa-brokkoli",
+    "type": "fresh"
+   }
+  },
+  {
+   "date": "2026-11-25",
+   "breakfast": "Joghurt-Porridge mit Himbeeren & Kürbiskernen",
+   "lunch": {
+    "dish": "linsen-gulasch",
+    "type": "prep"
+   },
+   "dinner": {
+    "dish": "chili-schwarzbohnen-vollkornreis",
+    "type": "fresh"
+   }
+  },
+  {
+   "date": "2026-11-26",
+   "breakfast": "Overnight Oats mit Apfel, Zimt & Haselnüssen",
+   "lunch": {
+    "dish": "ofen-kichererbsen-butternut",
+    "type": "prep"
+   },
+   "dinner": {
+    "dish": "haehnchen-spiesse-couscous",
+    "type": "fresh"
+   }
+  },
+  {
+   "date": "2026-11-27",
+   "breakfast": "Quark-Porridge mit Blaubeeren & Mandeln",
+   "lunch": {
+    "dish": "couscous-salat-tomaten-pinien",
+    "type": "fresh"
+   },
+   "dinner": {
+    "dish": "rote-linsen-dal",
+    "type": "fresh"
+   }
+  },
+  {
+   "date": "2026-11-28",
+   "breakfast": "Overnight Oats mit Banane, Erdnussbutter & Chiasamen",
+   "lunch": {
+    "dish": "quinoa-rosenkohl-bowl",
+    "type": "fresh"
+   },
+   "dinner": {
+    "dish": "tofu-erdnusssauce",
+    "type": "fresh"
+   }
+  },
+  {
+   "date": "2026-11-29",
+   "breakfast": "Warmes Porridge mit Granatapfel, Honig & Pistazien",
+   "lunch": {
+    "dish": "rote-linsen-suppe",
+    "type": "fresh"
+   },
+   "dinner": {
+    "dish": "kuerbis-kokos-suppe",
+    "type": "fresh",
+    "cookDay": [
+     "toskanischer-weissbohnen-eintopf",
+     "ofen-suesskartoffel-rosenkohl"
+    ]
+   }
+  }
+ ],
+ "dishes": {
+  "suesskartoffel-schwarzbohnen": {
+   "name": "Gebackene Süßkartoffel mit schwarzen Bohnen, Mais & Avocado-Joghurt-Dip",
+   "q": "stuffed sweet potato black beans",
+   "servings": "2 Personen",
+   "ingredients": [
+    "2 große Süßkartoffeln",
+    "1 Dose schwarze Bohnen (240 g)",
+    "150 g Mais",
+    "1 TL Kreuzkümmel",
+    "1 TL Paprikapulver",
+    "1 Avocado",
+    "100 g Joghurt",
+    "1/2 Limette",
+    "Koriander oder Petersilie",
+    "1 EL Olivenöl",
+    "Salz, Pfeffer"
+   ],
+   "steps": "Süßkartoffeln einstechen und bei 200°C 45–50 Minuten weich backen. Bohnen und Mais mit Kreuzkümmel und Paprikapulver in Öl erwärmen. Avocado zerdrücken und mit Joghurt, Limettensaft, Salz und Pfeffer verrühren. Süßkartoffeln aufschneiden, füllen und mit Dip und Koriander servieren.",
+   "img": "img/suesskartoffel-schwarzbohnen.jpg",
+   "credit": "„Stuffed Sweet Potato with Tahini Sauce-2“ – jules:stonesoup, CC BY 2.0 (via Openverse/flickr)"
+  },
+  "lachs-quinoa-brokkoli": {
+   "name": "Lachsfilet mit Quinoa & gedünstetem Brokkoli",
+   "q": "salmon broccoli quinoa",
+   "servings": "2 Personen",
+   "ingredients": [
+    "2 Lachsfilets (à ca. 150 g)",
+    "100 g Quinoa",
+    "300 g Brokkoli",
+    "1 Zitrone",
+    "2 EL Olivenöl",
+    "1 Knoblauchzehe",
+    "etwas Dill",
+    "Salz, Pfeffer"
+   ],
+   "steps": "Quinoa kochen. Lachs mit Salz, Pfeffer und Zitrone würzen und je Seite 3–4 Minuten in Olivenöl braten. Brokkoli mit Knoblauch in wenig Wasser 5–6 Minuten dünsten. Mit Dill und Zitrone servieren.",
+   "img": "img/lachs-quinoa-brokkoli.jpg",
+   "credit": "„Salmon, broccoli and noodles“ – infowidget, CC BY-SA 2.0 (via Openverse/flickr)"
+  },
+  "chili-schwarzbohnen-vollkornreis": {
+   "name": "Gemüse-Chili sin Carne mit schwarzen Bohnen, Mais & Vollkornreis",
+   "q": "black bean chili",
+   "servings": "2 Personen",
+   "ingredients": [
+    "1 Dose schwarze Bohnen (240 g)",
+    "1 Dose Kidneybohnen (240 g)",
+    "150 g Mais",
+    "1 Zwiebel",
+    "1 Paprika",
+    "2 Knoblauchzehen",
+    "1 Dose gehackte Tomaten (400 g)",
+    "1 EL Tomatenmark",
+    "1 TL Kreuzkümmel",
+    "1 TL Paprikapulver",
+    "1/2 TL Chiliflocken",
+    "120 g Vollkornreis",
+    "1 EL Öl",
+    "Salz, Pfeffer"
+   ],
+   "steps": "Zwiebel, Paprika und Knoblauch anschwitzen, Tomatenmark und Gewürze mitrösten. Tomaten, Bohnen und Mais zugeben und 15–20 Minuten köcheln. Vollkornreis kochen und dazu servieren.",
+   "img": "img/chili-schwarzbohnen-vollkornreis.jpg",
+   "credit": "„Turkey Black Bean Chili“ – Nathan Y, CC BY-SA 2.0 (via Openverse/flickr)"
+  },
+  "haehnchen-spiesse-couscous": {
+   "name": "Hähnchenbrust-Spieße mit Couscous & gegrilltem Gemüse",
+   "q": "chicken skewers vegetables",
+   "servings": "2 Personen",
+   "ingredients": [
+    "300 g Hähnchenbrust (gewürfelt)",
+    "1 Zucchini",
+    "1 Paprika",
+    "1 rote Zwiebel",
+    "2 EL Olivenöl",
+    "1 TL geräuchertes Paprikapulver",
+    "1 Knoblauchzehe",
+    "1 Zitrone",
+    "120 g Couscous",
+    "150 ml heiße Gemüsebrühe",
+    "Petersilie",
+    "Salz, Pfeffer",
+    "4 Holzspieße"
+   ],
+   "steps": "Hähnchen mit Öl, Paprikapulver, Knoblauch, Zitronensaft, Salz und Pfeffer marinieren. Mit dem Gemüse abwechselnd aufspießen und in Pfanne oder Ofen (200°C) 15–18 Minuten garen. Couscous mit Brühe 5 Minuten quellen lassen, mit Petersilie auflockern und dazu servieren.",
+   "img": "img/haehnchen-spiesse-couscous.jpg",
+   "credit": "„Korean spicy chicken skewers“ – KFoodaddict, CC BY 2.0 (via Openverse/flickr)"
+  },
+  "couscous-salat-tomaten-pinien": {
+   "name": "Couscous-Salat mit Kichererbsen, getrockneten Tomaten & Pinienkernen",
+   "q": "couscous salad sun dried tomatoes",
+   "servings": "2 Personen",
+   "ingredients": [
+    "120 g Couscous",
+    "150 ml heiße Gemüsebrühe",
+    "1 Dose Kichererbsen (240 g)",
+    "50 g getrocknete Tomaten",
+    "25 g Pinienkerne (geröstet)",
+    "Petersilie",
+    "2 EL Olivenöl",
+    "1 Zitrone",
+    "Salz, Pfeffer"
+   ],
+   "steps": "Couscous mit der Brühe 5 Minuten quellen lassen und auflockern. Kichererbsen, gehackte getrocknete Tomaten, Pinienkerne und Petersilie unterheben. Mit Öl, Zitrone, Salz und Pfeffer abschmecken.",
+   "img": "img/couscous-salat-tomaten-pinien.jpg",
+   "credit": "„Cous Cous Salad“ – thedailyenglishshow, CC BY 2.0 (via Openverse/flickr)"
+  },
+  "rote-linsen-dal": {
+   "name": "Rote-Linsen-Dal mit Spinat & Basmatireis",
+   "q": "red lentil dal spinach",
+   "servings": "2 Personen",
+   "ingredients": [
+    "150 g rote Linsen",
+    "1 Zwiebel",
+    "2 Knoblauchzehen",
+    "1 Stück Ingwer",
+    "1 TL Kurkuma",
+    "1 TL Garam Masala",
+    "1/2 TL Chiliflocken",
+    "400 ml Kokosmilch",
+    "200 ml Gemüsebrühe",
+    "150 g Blattspinat",
+    "120 g Basmatireis",
+    "1 EL Öl",
+    "Salz, Pfeffer"
+   ],
+   "steps": "Zwiebel, Knoblauch und Ingwer anschwitzen, Gewürze mitrösten. Linsen, Kokosmilch und Brühe zugeben und 15–20 Minuten sämig köcheln. Spinat unterrühren, abschmecken und mit Basmatireis servieren.",
+   "img": "img/rote-linsen-dal.jpg",
+   "credit": "„spiced red lentil dal“ – thepinkpeppercorn, CC BY 2.0 (via Openverse/flickr)"
+  },
+  "quinoa-rosenkohl-bowl": {
+   "name": "Quinoa-Bowl mit geröstetem Rosenkohl, Feta & Granatapfelkernen",
+   "q": "roasted brussels sprouts quinoa bowl",
+   "servings": "2 Personen",
+   "ingredients": [
+    "100 g Quinoa",
+    "250 g Rosenkohl (halbiert)",
+    "2 EL Olivenöl",
+    "60 g Feta",
+    "1/2 Granatapfel",
+    "25 g Walnüsse",
+    "1 EL Zitronensaft",
+    "Salz, Pfeffer"
+   ],
+   "steps": "Rosenkohl mit Öl, Salz und Pfeffer bei 200°C 20–25 Minuten goldbraun rösten. Quinoa kochen und abkühlen lassen. Mit Feta, Granatapfel und Walnüssen mischen und mit Zitrone abschmecken.",
+   "img": "img/quinoa-rosenkohl-bowl.jpg",
+   "credit": "„Brussel Sprouts“ – SavvyChristine, CC BY 2.0 (via Openverse/flickr)"
+  },
+  "tofu-erdnusssauce": {
+   "name": "Gebratener Tofu mit Gemüse in Erdnusssauce & Reisnudeln",
+   "q": "tofu peanut sauce noodles",
+   "servings": "2 Personen",
+   "ingredients": [
+    "200 g fester Tofu",
+    "150 g Reisnudeln",
+    "1 Paprika",
+    "1 Karotte",
+    "100 g Brokkoli",
+    "2 EL Erdnussbutter",
+    "2 EL Sojasauce",
+    "1 EL Limettensaft",
+    "1 TL Honig",
+    "1 Knoblauchzehe",
+    "1 Stück Ingwer",
+    "2 EL Öl",
+    "geröstete Erdnüsse"
+   ],
+   "steps": "Tofu würfeln und rundum knusprig braten. Reisnudeln einweichen. Gemüse in Streifen im Wok anbraten. Erdnussbutter, Sojasauce, Limette, Honig, Knoblauch und Ingwer verrühren, mit Tofu und Nudeln untermengen und mit Erdnüssen servieren.",
+   "img": "img/tofu-erdnusssauce.jpg",
+   "credit": "„Thai peanut noodles with tofu“ – aminaelahi, CC BY 2.0 (via Openverse/flickr)"
+  },
+  "rote-linsen-suppe": {
+   "name": "Rote-Linsen-Suppe mit Karotten & Ingwer",
+   "q": "red lentil soup",
+   "servings": "2 Personen",
+   "ingredients": [
+    "150 g rote Linsen",
+    "2 Karotten",
+    "1 Zwiebel",
+    "1 Stück Ingwer",
+    "1 Knoblauchzehe",
+    "1 TL Kreuzkümmel",
+    "700 ml Gemüsebrühe",
+    "1 EL Öl",
+    "etwas Joghurt",
+    "Salz, Pfeffer"
+   ],
+   "steps": "Zwiebel, Karotten, Ingwer und Knoblauch anschwitzen, Kreuzkümmel mitrösten. Linsen und Brühe zugeben und ca. 20 Minuten köcheln. Pürieren, abschmecken und mit einem Klecks Joghurt servieren.",
+   "img": "img/rote-linsen-suppe.jpg",
+   "credit": "„Spicy Carrot & Red Lentil Soup“ – Foodmoods, CC BY 2.0 (via Openverse/flickr)"
+  },
+  "kuerbis-kokos-suppe": {
+   "name": "Kürbis-Kokos-Suppe mit gerösteten Kichererbsen & Kürbiskernen",
+   "q": "pumpkin soup",
+   "servings": "2 Personen",
+   "ingredients": [
+    "500 g Hokkaido-Kürbis",
+    "1 Zwiebel",
+    "1 Knoblauchzehe",
+    "1 Stück Ingwer",
+    "400 ml Kokosmilch",
+    "300 ml Gemüsebrühe",
+    "1 Dose Kichererbsen (240 g)",
+    "1 TL Currypulver",
+    "20 g Kürbiskerne",
+    "1 EL Öl",
+    "Salz, Pfeffer"
+   ],
+   "steps": "Zwiebel, Knoblauch und Ingwer anschwitzen, Kürbis kurz mitbraten. Mit Kokosmilch und Brühe 20 Minuten köcheln und fein pürieren. Kichererbsen mit Curry, Salz und Öl knusprig rösten. Suppe mit Kichererbsen und Kürbiskernen servieren.",
+   "img": "img/kuerbis-kokos-suppe.jpg",
+   "credit": "„coconut pumpkin soup“ – stu_spivack, CC BY-SA 2.0 (via Openverse/flickr)"
+  },
+  "toskanischer-weissbohnen-eintopf": {
+   "name": "Toskanischer Weißbohnen-Eintopf mit Lauch, Sellerie, Tomaten & Rosmarin",
+   "q": "tuscan white bean soup",
+   "servings": "4 Portionen (Meal Prep)",
+   "ingredients": [
+    "3 Dosen weiße Bohnen (à 240 g)",
+    "2 Stangen Lauch",
+    "2 Stangen Staudensellerie",
+    "1 Zwiebel",
+    "2 Knoblauchzehen",
+    "1 Dose gehackte Tomaten (400 g)",
+    "1 TL Rosmarin",
+    "800 ml Gemüsebrühe",
+    "2 EL Olivenöl",
+    "Salz, Pfeffer",
+    "Parmesan (optional)"
+   ],
+   "steps": "Lauch, Sellerie und Zwiebel mit Knoblauch in Olivenöl anschwitzen, Rosmarin mitrösten. Bohnen, Tomaten und Brühe zugeben und 20–25 Minuten köcheln. Abschmecken, nach Wunsch teilweise pürieren, abkühlen lassen und portioniert lagern.",
+   "img": "img/toskanischer-weissbohnen-eintopf.jpg",
+   "credit": "„Tuscan White Bean Soup with Kale and Chard“ – Leeks 'N' Bounds, CC BY-SA 2.0 (via Openverse/flickr)"
+  },
+  "ofen-suesskartoffel-rosenkohl": {
+   "name": "Ofengemüse mit Süßkartoffel, Rosenkohl, Kichererbsen & Walnüssen",
+   "q": "roasted sweet potato brussels sprouts",
+   "servings": "4 Portionen (Meal Prep)",
+   "ingredients": [
+    "2 Dosen Kichererbsen (à 240 g)",
+    "600 g Süßkartoffel",
+    "400 g Rosenkohl (halbiert)",
+    "1 rote Zwiebel",
+    "3 EL Olivenöl",
+    "1 TL Thymian",
+    "40 g Walnüsse",
+    "Salz, Pfeffer"
+   ],
+   "steps": "Süßkartoffel, Rosenkohl und Zwiebel mit Kichererbsen, Öl, Thymian, Salz und Pfeffer aufs Blech geben. Bei 200°C Umluft 30–35 Minuten rösten, Walnüsse in den letzten 5–8 Minuten mitrösten. Abkühlen lassen und portioniert lagern.",
+   "img": "img/ofen-suesskartoffel-rosenkohl.jpg",
+   "credit": "„Roasted Brussels Sprouts“ – Rusty Clark ~ 100K Photos, CC BY 2.0 (via Openverse/flickr)"
+  },
+  "linsen-gulasch": {
+   "name": "Ungarischer Linsen-Gulasch mit Paprika & Karotten",
+   "q": "lentil goulash",
+   "servings": "4 Portionen (Meal Prep)",
+   "ingredients": [
+    "300 g braune Linsen (getrocknet)",
+    "2 Paprika",
+    "3 Karotten",
+    "1 Zwiebel",
+    "2 Knoblauchzehen",
+    "1 Dose gehackte Tomaten (400 g)",
+    "2 EL Paprikapulver (edelsüß)",
+    "1 TL Kümmel (gemahlen)",
+    "1 TL Majoran",
+    "900 ml Gemüsebrühe",
+    "2 EL Öl",
+    "Salz, Pfeffer"
+   ],
+   "steps": "Zwiebel und Knoblauch anschwitzen, Paprikapulver, Kümmel und Majoran mitrösten. Paprika und Karotten kurz mitbraten. Linsen, Tomaten und Brühe zugeben und 25–30 Minuten köcheln. Abschmecken, abkühlen lassen und portioniert kühl lagern.",
+   "img": "img/linsen-gulasch.jpg",
+   "credit": "„Lentil Stew“ – You As A Machine, CC BY-SA 2.0 (via Openverse/flickr)"
+  },
+  "ofen-kichererbsen-butternut": {
+   "name": "Ofengemüse mit Kichererbsen, Butternut-Kürbis & Rosmarin",
+   "q": "roasted butternut squash chickpeas",
+   "servings": "4 Portionen (Meal Prep)",
+   "ingredients": [
+    "2 Dosen Kichererbsen (à 240 g)",
+    "1 Butternut-Kürbis (ca. 800 g)",
+    "2 rote Zwiebeln",
+    "3 EL Olivenöl",
+    "2 Zweige Rosmarin",
+    "30 g Kürbiskerne",
+    "Salz, Pfeffer"
+   ],
+   "steps": "Kürbis und Zwiebeln würfeln, mit Kichererbsen, Öl, Rosmarin, Salz und Pfeffer aufs Blech geben. Bei 200°C Umluft 30–35 Minuten rösten, Kürbiskerne in den letzten 5 Minuten mitrösten. Abkühlen lassen und portioniert lagern.",
+   "img": "img/ofen-kichererbsen-butternut.jpg",
+   "credit": "„Roasted butternut squash risotto 1“ – Fimb, CC BY 2.0 (via Openverse/flickr)"
+  }
+ },
+ "shopping": [
+  {
+   "cat": "Obst & Gemüse",
+   "items": [
+    {
+     "name": "Kiwi",
+     "qty": "3 Stück"
+    },
+    {
+     "name": "Birnen",
+     "qty": "2 Stück"
+    },
+    {
+     "name": "Äpfel",
+     "qty": "2 Stück"
+    },
+    {
+     "name": "Bananen",
+     "qty": "2 Stück"
+    },
+    {
+     "name": "Heidelbeeren",
+     "qty": "200 g"
+    },
+    {
+     "name": "Himbeeren",
+     "qty": "200 g"
+    },
+    {
+     "name": "Granatapfel",
+     "qty": "2 Stück"
+    },
+    {
+     "name": "Zitronen",
+     "qty": "2 Stück"
+    },
+    {
+     "name": "Limette",
+     "qty": "1 Stück"
+    },
+    {
+     "name": "Süßkartoffeln",
+     "qty": "ca. 1,3 kg (2 große + 600 g für den Kochtag)"
+    },
+    {
+     "name": "Brokkoli",
+     "qty": "400 g"
+    },
+    {
+     "name": "Zucchini",
+     "qty": "1 Stück"
+    },
+    {
+     "name": "Paprika",
+     "qty": "3 Stück"
+    },
+    {
+     "name": "Zwiebeln",
+     "qty": "4 Stück"
+    },
+    {
+     "name": "Rote Zwiebeln",
+     "qty": "2 Stück"
+    },
+    {
+     "name": "Rosenkohl",
+     "qty": "650 g"
+    },
+    {
+     "name": "Lauch",
+     "qty": "2 Stangen"
+    },
+    {
+     "name": "Staudensellerie",
+     "qty": "2 Stangen"
+    },
+    {
+     "name": "Knoblauch",
+     "qty": "1 Knolle"
+    },
+    {
+     "name": "Ingwer",
+     "qty": "1 Stück"
+    },
+    {
+     "name": "Karotten",
+     "qty": "2 Stück"
+    },
+    {
+     "name": "Avocado",
+     "qty": "1 Stück"
+    },
+    {
+     "name": "Mais (TK oder Dose)",
+     "qty": "300 g"
+    },
+    {
+     "name": "Blattspinat",
+     "qty": "150 g"
+    },
+    {
+     "name": "Getrocknete Tomaten (in Öl)",
+     "qty": "50 g"
+    },
+    {
+     "name": "Petersilie",
+     "qty": "1 Bund"
+    },
+    {
+     "name": "Koriander",
+     "qty": "1 Bund"
+    },
+    {
+     "name": "Dill",
+     "qty": "1 Bund"
+    }
+   ]
+  },
+  {
+   "cat": "Milchprodukte",
+   "items": [
+    {
+     "name": "Naturjoghurt",
+     "qty": "500 g"
+    },
+    {
+     "name": "Quark",
+     "qty": "400 g"
+    },
+    {
+     "name": "Feta",
+     "qty": "60 g"
+    },
+    {
+     "name": "Parmesan (optional)",
+     "qty": "30 g"
+    }
+   ]
+  },
+  {
+   "cat": "Trockenwaren & Grundnahrungsmittel",
+   "items": [
+    {
+     "name": "Haferflocken",
+     "qty": "1 kg"
+    },
+    {
+     "name": "Quinoa",
+     "qty": "200 g"
+    },
+    {
+     "name": "Couscous",
+     "qty": "240 g"
+    },
+    {
+     "name": "Vollkornreis",
+     "qty": "120 g"
+    },
+    {
+     "name": "Basmatireis",
+     "qty": "120 g"
+    },
+    {
+     "name": "Reisnudeln",
+     "qty": "150 g"
+    },
+    {
+     "name": "Rote Linsen",
+     "qty": "300 g"
+    },
+    {
+     "name": "Weiße Bohnen (Dose, 240 g Abtropfgewicht)",
+     "qty": "3 Dosen"
+    },
+    {
+     "name": "Schwarze Bohnen (Dose, 240 g Abtropfgewicht)",
+     "qty": "2 Dosen"
+    },
+    {
+     "name": "Kidneybohnen (Dose, 240 g Abtropfgewicht)",
+     "qty": "1 Dose"
+    },
+    {
+     "name": "Kichererbsen (Dose, 240 g Abtropfgewicht)",
+     "qty": "4 Dosen"
+    },
+    {
+     "name": "Gehackte Tomaten (Dose, 400 g)",
+     "qty": "2 Dosen"
+    },
+    {
+     "name": "Kokosmilch (Dose, 400 ml)",
+     "qty": "2 Dosen"
+    },
+    {
+     "name": "Tomatenmark",
+     "qty": "1 kleine Tube"
+    },
+    {
+     "name": "Pinienkerne",
+     "qty": "25 g"
+    },
+    {
+     "name": "Walnüsse",
+     "qty": "100 g"
+    },
+    {
+     "name": "Mandeln",
+     "qty": "50 g"
+    },
+    {
+     "name": "Haselnüsse",
+     "qty": "30 g"
+    },
+    {
+     "name": "Kürbiskerne",
+     "qty": "100 g"
+    },
+    {
+     "name": "Kokosflocken",
+     "qty": "30 g"
+    },
+    {
+     "name": "Chiasamen",
+     "qty": "20 g"
+    },
+    {
+     "name": "Pistazien",
+     "qty": "40 g"
+    },
+    {
+     "name": "Erdnussbutter",
+     "qty": "1 Glas"
+    },
+    {
+     "name": "Geröstete Erdnüsse",
+     "qty": "50 g"
+    },
+    {
+     "name": "Honig",
+     "qty": "1 Glas (falls nicht vorrätig)"
+    }
+   ]
+  },
+  {
+   "cat": "Fleisch & Fisch",
+   "items": [
+    {
+     "name": "Lachsfilets",
+     "qty": "2 Stück (ca. 300 g)"
+    },
+    {
+     "name": "Hähnchenbrust",
+     "qty": "300 g"
+    }
+   ]
+  },
+  {
+   "cat": "Sonstiges",
+   "items": [
+    {
+     "name": "Fester Tofu",
+     "qty": "200 g"
+    },
+    {
+     "name": "Sojasauce (falls nicht vorrätig)",
+     "qty": ""
+    },
+    {
+     "name": "Garam Masala",
+     "qty": ""
+    },
+    {
+     "name": "Geräuchertes Paprikapulver",
+     "qty": ""
+    },
+    {
+     "name": "Currypulver",
+     "qty": ""
+    },
+    {
+     "name": "Kurkuma",
+     "qty": ""
+    },
+    {
+     "name": "Thymian",
+     "qty": ""
+    },
+    {
+     "name": "Frischer Rosmarin (oder getrocknet)",
+     "qty": ""
+    },
+    {
+     "name": "Kreuzkümmel (falls nicht vorrätig)",
+     "qty": ""
+    },
+    {
+     "name": "Olivenöl (falls nicht vorrätig)",
+     "qty": ""
+    }
+   ]
+  }
+ ]
+}
