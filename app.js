@@ -91,31 +91,39 @@
     const d = week.days[dayIdx];
     const dt = parseDate(d.date);
     const MON = ["Januar","Februar","März","April","Mai","Juni","Juli","August","September","Oktober","November","Dezember"];
-    let html = `<header class="day-head"><p class="day-kicker">${WD_LONG[dt.getDay()]}</p><h2 class="day-title">${dt.getDate()}. ${MON[dt.getMonth()]}</h2><div class="orn" aria-hidden="true"><span></span>✦<span></span></div></header>`;
-    if (d.breakfast) html += `<div class="meal-label">Frühstück</div><div class="breakfast"><span>${esc(d.breakfast)}</span></div>`;
-    html += `<div class="meal-label">Mittagessen</div>` + mealCard(d.lunch);
-    html += `<div class="meal-label">Abendessen</div>` + mealCard(d.dinner);
+    let html = `<header class="day-head"><p class="day-kicker">${WD_LONG[dt.getDay()]}</p><h2 class="day-title">${dt.getDate()}. ${MON[dt.getMonth()]}.</h2></header>`;
+    if (d.breakfast) html += `<p class="meal-label">Frühstück</p><p class="breakfast"><span>${esc(d.breakfast)}</span></p>`;
+    html += mealLabel("Mittagessen", d.lunch) + mealCard(d.lunch);
+    html += mealLabel("Abendessen", d.dinner) + mealCard(d.dinner);
     if (d.dinner && d.dinner.cookDay && d.dinner.cookDay.length) {
-      html += `<div class="cook-day"><p class="meal-label">Kochtag · für die kommende Woche</p>` +
+      html += `<div class="cook-day"><p class="meal-label">Kochtag<span class="sep">·</span>für die kommende Woche</p>` +
         d.dinner.cookDay.map((id) => smallCard(id)).join("") + `</div>`;
     }
     $("#dayContent").innerHTML = html;
   }
 
-  function badge(type) {
-    if (type === "prep") return `<span class="badge prep">Meal Prep · vom Sonntag</span>`;
-    if (type === "next") return `<span class="badge next">für Folgewoche</span>`;
-    return `<span class="badge fresh">frisch</span>`;
+  function typeText(type) {
+    if (type === "prep") return "Meal Prep · vom Sonntag";
+    if (type === "next") return "Meal Prep · für die Folgewoche";
+    return "Frisch gekocht";
+  }
+  function mealLabel(name, meal) {
+    if (!meal) return "";
+    return `<p class="meal-label">${name}<span class="sep">·</span>${meal.type === "prep" ? "Meal Prep" : "frisch"}</p>`;
   }
 
   function mealCard(meal) {
     if (!meal) return "";
     const dish = week.dishes[meal.dish] || { name: meal.dish };
-    return `<button class="card" data-dish="${esc(meal.dish)}" data-type="${esc(meal.type)}">${photo(dish, "")}<div class="body"><h3>${esc(dish.name)}</h3>${badge(meal.type)}</div></button>`;
+    return cardHTML(meal.dish, meal.type, dish);
   }
   function smallCard(id) {
     const dish = week.dishes[id] || { name: id };
-    return `<button class="card" data-dish="${esc(id)}" data-type="next">${photo(dish, "")}<div class="body"><h3>${esc(dish.name)}</h3>${badge("next")}</div></button>`;
+    return cardHTML(id, "next", dish);
+  }
+  function cardHTML(id, type, dish) {
+    const tag = type === "prep" ? `<span class="tag">Meal Prep · vom Sonntag</span>` : type === "next" ? `<span class="tag">Vorkochen · für die Folgewoche</span>` : "";
+    return `<button class="card" data-dish="${esc(id)}" data-type="${esc(type)}">${photo(dish, "")}<div class="body">${tag}<h3>${esc(dish.name)}</h3><span class="more">Rezept <span class="arr">→</span></span></div></button>`;
   }
 
   /* ---------- Recipe sheet ---------- */
@@ -125,9 +133,8 @@
     const doneKey = "ing:" + week.id + ":" + id;
     const done = store.get(doneKey, []);
     const sheet = $("#sheet");
-    sheet.innerHTML = `<button class="close" aria-label="Schließen">✕</button>${photo(dish, "hero")}
-      <div class="inner"><div class="sheet-badge">${badge(type)}</div><h2>${esc(dish.name)}</h2>
-      <div class="orn" aria-hidden="true"><span></span>✦<span></span></div>
+    sheet.innerHTML = `<button class="close" aria-label="Schließen">×</button><div class="hero-wrap">${photo(dish, "hero")}</div>
+      <div class="inner"><p class="kicker">${typeText(type)}</p><h2>${esc(dish.name)}</h2>
       <p class="servings">${esc(dish.servings || "")}</p>
       <h4>Zutaten</h4><ul class="ing">${(dish.ingredients || []).map((x, i) => `<li data-i="${i}" class="${done.includes(i) ? "done" : ""}">${esc(x)}</li>`).join("")}</ul>
       <h4>Zubereitung</h4><p class="steps">${esc(dish.steps || "")}</p>
@@ -182,7 +189,7 @@
         .filter((it) => !(hideDone && checked[it.key]));
       const open = c.items.filter((it) => !checked[it.key]).length;
       if (!items.length) return "";
-      return `<section class="cat"><h3>${esc(c.cat)}<small>${open} offen</small></h3>` +
+      return `<section class="cat"><h3><span>${esc(c.cat)}</span><small>${open} offen</small></h3>` +
         items.map((it) => `<label class="item${checked[it.key] ? " done" : ""}">
           <input type="checkbox" data-key="${esc(it.key)}" ${checked[it.key] ? "checked" : ""}>
           <span class="name">${esc(it.name)}</span>${it.qty ? `<span class="qty">${esc(it.qty)}</span>` : ""}

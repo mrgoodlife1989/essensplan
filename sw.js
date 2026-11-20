@@ -1,5 +1,5 @@
 // Service Worker: App-Shell cache-first, Wochendaten & Bilder network-first (mit Cache-Fallback offline).
-const VERSION = "v2-dark";
+const VERSION = "v3-editorial";
 const SHELL = "shell-" + VERSION;
 const DATA = "data-" + VERSION;
 const SHELL_FILES = [
@@ -23,8 +23,8 @@ self.addEventListener("fetch", (e) => {
   if (req.method !== "GET") return;
   const url = new URL(req.url);
   if (url.origin !== location.origin) {
-    // Externe Fotos (z.B. Flickr) und Schriften: stale-while-revalidate; Firebase direkt
-    if (req.destination === "image" || url.hostname.endsWith("staticflickr.com") || url.hostname.includes("fonts.g")) {
+    // Externe Fotos (z.B. Flickr) : stale-while-revalidate; Firebase direkt
+    if (req.destination === "image" || url.hostname.endsWith("staticflickr.com")) {
       e.respondWith(caches.open(DATA).then((c) => c.match(req).then((hit) => {
         const net = fetch(req).then((res) => { if (res && (res.ok || res.type === "opaque")) c.put(req, res.clone()); return res; }).catch(() => hit);
         return hit || net;

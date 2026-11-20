@@ -4,11 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Essensplan</title>
-<meta name="theme-color" content="#0f0e0c">
+<meta name="theme-color" content="#08090a">
 <meta name="color-scheme" content="dark">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600&display=swap">
 <meta name="description" content="Wochenplan, Rezepte und gemeinsame Einkaufsliste für 2 Personen">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icons/icon-192.png">
@@ -22,22 +19,22 @@
 <body>
 <header class="top">
   <p class="brand">Wochenkarte · für zwei</p>
-  <div class="week-switch">
-    <button class="nav" id="prevWeek" aria-label="Vorherige Woche">‹</button>
-    <label class="week-select">
-      <span id="weekLabel">…</span>
-      <select id="weekSelect" aria-label="Woche wählen"></select>
-    </label>
-    <button class="nav" id="nextWeek" aria-label="Nächste Woche">›</button>
-  </div>
+  <label class="week-select">
+    <span id="weekLabel">…</span>
+    <select id="weekSelect" aria-label="Woche wählen"></select>
+  </label>
 </header>
 
 <div id="syncBanner" class="banner" hidden>Nur auf diesem Gerät gespeichert · Sync folgt</div>
 
 <main>
   <section id="view-plan" class="view">
+    <div class="week-nav">
+      <button class="link" id="prevWeek" aria-label="Vorherige Woche"><span class="arr">←</span> Vorwoche</button>
+      <button class="link" id="nextWeek" aria-label="Nächste Woche">Nächste Woche <span class="arr">→</span></button>
+    </div>
     <details class="week-info" id="weekInfo">
-      <summary>Zur Woche</summary>
+      <summary><span>Über diese Woche</span><span class="arr">↓</span></summary>
       <p id="weekIntro"></p>
       <p class="prep-note" id="weekPrep"></p>
     </details>
@@ -46,16 +43,20 @@
   </section>
 
   <section id="view-shop" class="view" hidden>
+    <header class="page-head">
+      <p class="kicker">Einkauf</p>
+      <h2 class="page-title">Die Liste der Woche.</h2>
+    </header>
     <div class="shop-head">
       <div class="progress"><div class="bar"><span id="progBar"></span></div><span id="progText">0/0</span></div>
       <div class="shop-actions">
-        <button class="chip-btn" id="toggleDone">Erledigte ausblenden</button>
-        <button class="chip-btn" id="copyBring">Für Bring! kopieren</button>
-        <button class="chip-btn danger" id="resetAll">Alle zurücksetzen</button>
+        <button class="link" id="toggleDone">Erledigte ausblenden</button>
+        <button class="link danger" id="resetAll">Alle zurücksetzen</button>
+        <button class="link" id="copyBring">Für Bring! kopieren <span class="arr">→</span></button>
       </div>
       <form class="add-item" id="addForm">
-        <input id="addInput" type="text" placeholder="Artikel hinzufügen …" autocomplete="off" enterkeyhint="done">
-        <button type="submit" aria-label="Hinzufügen">+</button>
+        <input id="addInput" type="text" placeholder="Artikel hinzufügen" autocomplete="off" enterkeyhint="done">
+        <button type="submit" class="link" aria-label="Hinzufügen">Hinzufügen <span class="arr">→</span></button>
       </form>
     </div>
     <div id="shopList"></div>
@@ -63,8 +64,8 @@
 </main>
 
 <nav class="tabbar">
-  <button data-tab="plan" class="active"><svg class="ti" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="13" r="6.5"/><path d="M3 4v6M5 4v6M3 10c0 1.2.9 2 2 2M4 12v8M20 4c-1.5 1-2 3-2 6h2v10"/></svg>Menü</button>
-  <button data-tab="shop"><svg class="ti" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l-1.2 11.2a1 1 0 0 1-1 .8H7.2a1 1 0 0 1-1-.8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>Einkauf</button>
+  <button data-tab="plan" class="active">Menü</button>
+  <button data-tab="shop">Einkauf</button>
 </nav>
 
 <div class="sheet-backdrop" id="sheetBackdrop" hidden></div>
