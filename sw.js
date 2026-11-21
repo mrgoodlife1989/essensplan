@@ -1,5 +1,5 @@
 // Service Worker: App-Shell cache-first, Wochendaten & Bilder network-first (mit Cache-Fallback offline).
-const VERSION = "v6-wochenansicht";
+const VERSION = "v7-sans";
 const SHELL = "shell-" + VERSION;
 const DATA = "data-" + VERSION;
 const SHELL_FILES = [
